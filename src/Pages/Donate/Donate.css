@@ -1,0 +1,222 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.future {
+    font-family: Outfit;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    padding-bottom: 64px;
+}
+
+.fut {
+    padding-bottom: 40px;
+    padding-top: 63px;
+}
+
+.amount {
+    background-image: url("../../assets/backs.png");
+    padding-top: 140px;
+    padding-bottom: 348px;
+}
+
+.choose {
+    background-color: #DF800C;
+    margin-left: 183px;
+    margin-right: 183px;
+}
+
+.nati {
+    font-size: 32px;
+    font-family: Outfit;
+    font-weight: 700;
+    color: white;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 106px;
+}
+
+.bord {
+    margin-left: 106px;
+    margin-right: 76px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.little {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.white {
+    color: white;
+}
+
+.little h6 {
+    font-size: 48px;
+    font-family: Outfit;
+    font-weight: 700;
+    color: white;
+}
+
+.little p {
+    font-size: 17px;
+    font-family: Outfit;
+    font-weight: 600;
+    color: white;
+    width: 642px;
+    padding-top: 12px;
+    padding-bottom: 11px;
+}
+
+.littles {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 8px;
+}
+
+.littles h6 {
+    font-size: 48px;
+    font-family: Outfit;
+    font-weight: 700;
+    color: black;
+}
+
+.littles p {
+    font-size: 17px;
+    font-family: Outfit;
+    font-weight: 600;
+    color: black;
+    width: 642px;
+    padding-top: 12px;
+    padding-bottom: 11px;
+}
+
+.littless {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    background-color: white;
+}
+
+.littless h6 {
+    font-size: 48px;
+    font-family: Outfit;
+    font-weight: 700;
+    color: black;
+}
+
+.littless p {
+    font-size: 17px;
+    font-family: Outfit;
+    font-weight: 600;
+    color: black;
+    width: 642px;
+    padding-top: 12px;
+    padding-bottom: 11px;
+}
+
+.custom {
+    font-family: Outfit;
+    font-size: 24px;
+    font-weight: 700;
+    color: #F1BC0C;
+    padding-left: 106px;
+    padding-top: 32px;
+    padding-bottom: 64px;
+}
+
+.frequency {
+    font-family: Outfit;
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    padding-left: 106px;
+    padding-bottom: 32px;
+}
+
+.class {
+    display: flex;
+    gap: 121px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-left: 106px;
+    margin-right: 76px;
+}
+
+.mon {
+    display: flex;
+    font-size: 32px;
+    font-family: Outfit;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    align-items: center;
+    gap: 58px;
+    padding-left: 86px;
+}
+
+.low {
+    display: flex;
+    font-size: 32px;
+    font-family: Outfit;
+    font-weight: 700;
+    text-align: center;
+    color: black;
+    align-items: center;
+    gap: 58px;
+    background-color: white;
+    padding-left: 86px;
+    padding-right: 92px;
+}
+
+.cancel {
+    display: flex;
+    font-family: Outfit;
+    padding-left: 117px;
+    padding-right: 107px;
+    gap: 374px;
+    padding-top: 32px;
+    text-align: center;
+    padding-bottom: 81px;
+}
+
+.cancel h6 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #C80606;
+    padding-top: 22px;
+}
+
+.cancel h6:hover {
+    color: white;
+}
+
+.cancel a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.cancel button {
+    width: 300px;
+    height: 80px;
+    background-color: #F1BC0C;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.cancel button:hover {
+    background-color: white;
+    color: #F1BC0C;
+}

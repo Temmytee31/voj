@@ -1,0 +1,228 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.Started {
+    background-image: url("../../../assets/backgrounds.png");
+}
+
+.starte p {
+    padding-top: 156px;
+    padding-bottom: 157px;
+    font-size: 29.9px;
+    font-family: Outfit;
+    font-weight: 600;
+    text-align: center;
+    padding-left: 94px;
+    padding-right: 95px;
+}
+
+.don h6 {
+    font-size: 40px;
+    font-family: Outfit;
+    font-weight: 700;
+    text-align: center;
+    color: #DF800C;
+    padding-top: 64px;
+}
+
+.don p {
+    font-size: 26px;
+    font-family: Outift;
+    font-weight: 500;
+    padding-top: 32px;
+    text-align: center;
+    padding-left: 170px;
+    padding-right: 170px;
+    padding-bottom: 15px;
+}
+
+.bank {
+    display: flex;
+    gap: 300px;
+    padding-left: 106px;
+    padding-bottom: 60px;
+}
+
+.months {
+    font-size: 24px;
+    font-family: Outfit;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.months a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.months a:hover {
+    background-color: #DF800C;
+    color: white;
+}
+
+.https {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Outfit;
+}
+
+.missioo {
+    display: flex;
+    padding-left: 100px;
+    padding-right: 99px;
+    font-family: Outfit;
+    padding-bottom: 40px;
+}
+
+.ouro {
+    font-size: 25px;
+    color: white;
+    background-color: #F1BC0C;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.miso {
+    font-size: 30px;
+    color: black;
+    background-color: #DF800C;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.worko {
+    font-size: 30px;
+    color: black;
+    background-color: #DF800C;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.promoteo {
+    font-size: 18.5px;
+    font-weight: 500;
+    font-family: Outfit;
+    padding-left: 100px;
+    padding-right: 99px;
+    padding-bottom: 64px;
+}
+
+.missioso {
+    display: flex;
+    padding-left: 100px;
+    padding-right: 99px;
+    font-family: Outfit;
+    padding-bottom: 40px;
+}
+
+.ourso {
+    font-size: 25px;
+    color: white;
+    background-color: #DF800C;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.misso {
+    font-size: 30px;
+    color: white;
+    background-color: #F1BC0C;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.workso {
+    font-size: 30px;
+    color: black;
+    background-color: #DF800C;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.missiosso {
+    display: flex;
+    padding-left: 100px;
+    padding-right: 99px;
+    font-family: Outfit;
+    padding-bottom: 40px;
+}
+
+.oursso {
+    font-size: 25px;
+    color: white;
+    background-color: #DF800C;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.missso {
+    font-size: 30px;
+    color: white;
+    background-color: #DF800C;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.worksso {
+    font-size: 30px;
+    color: white;
+    background-color: #F1BC0C;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.promoteso {
+    font-size: 19px;
+    font-weight: 500;
+    font-family: Outfit;
+    padding-left: 100px;
+    padding-right: 99px;
+    padding-bottom: 64px;
+}
+
+.see-more {
+    color: #F1BC0C;
+    font-weight: 700;
+}
+
+.promoteo a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.promoteo a:hover {
+    background-color: #DF800C;
+    color: white;
+}
+
+.promoteso a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.promoteso a:hover {
+    background-color: #DF800C;
+    color: white;
+}

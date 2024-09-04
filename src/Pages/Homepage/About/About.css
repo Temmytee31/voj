@@ -1,0 +1,198 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.daddy {
+    width: 1320;
+    padding-bottom: 64px;
+}
+
+.daddy img {
+    width: 100%;
+}
+
+.missio {
+    display: flex;
+    padding-left: 100px;
+    padding-right: 99px;
+    font-family: Outfit;
+    padding-bottom: 40px;
+}
+
+.our {
+    font-size: 30px;
+    color: white;
+    background-color: #F1BC0C;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.mis {
+    font-size: 30px;
+    color: black;
+    background-color: #DF800C;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.work {
+    font-size: 30px;
+    color: black;
+    background-color: #DF800C;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.promote {
+    font-size: 22.5px;
+    font-weight: 500;
+    font-family: Outfit;
+    padding-left: 100px;
+    padding-right: 99px;
+    padding-bottom: 40px;
+}
+
+.missios {
+    display: flex;
+    padding-left: 100px;
+    padding-right: 99px;
+    font-family: Outfit;
+    padding-bottom: 40px;
+}
+
+.ours {
+    font-size: 30px;
+    color: black;
+    background-color: #DF800C;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.miss {
+    font-size: 30px;
+    color: white;
+    background-color: #F1BC0C;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.works {
+    font-size: 30px;
+    color: black;
+    background-color: #DF800C;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.missioss {
+    display: flex;
+    padding-left: 100px;
+    padding-right: 99px;
+    font-family: Outfit;
+    padding-bottom: 40px;
+}
+
+.ourss {
+    font-size: 30px;
+    color: black;
+    background-color: #DF800C;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.misss {
+    font-size: 30px;
+    color: black;
+    background-color: #DF800C;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.workss {
+    font-size: 30px;
+    color: white;
+    background-color: #F1BC0C;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.promotes{
+    font-size: 22.5px;
+    font-weight: 500;
+    font-family: Outfit;
+    padding-left: 100px;
+    padding-right: 99px;
+    padding-bottom: 1140px;
+}
+
+.see-more {
+    color: #F1BC0C;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.see-more:hover {
+    color: white;
+    background-color: #DF800C;
+}
+
+.donors {
+    background-color: #DF800C;
+    color: white;
+    font-family: Outfit;
+}
+
+.becomes {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.mosts {
+    font-size: 32px;
+    font-weight: 500;
+    width: 1225px;
+    padding-left: 107px;
+    padding-bottom: 32px;
+}
+
+.donates {
+    width: 200px;
+    height: 80px;
+    background-color: #F1BC0C;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 570px;
+    margin-bottom: 32px;
+    cursor: pointer;
+}
+
+.donates:hover {
+    color: #DF800C;
+    background-color: white;
+}

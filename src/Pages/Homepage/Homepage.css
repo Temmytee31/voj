@@ -1,0 +1,249 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.header {
+    font-family: Outfit;
+    text-align: center;
+    padding-bottom: 64px;
+}
+
+.header h3 {
+    font-size: 60px;
+    font-weight: 700;
+    padding-bottom: 32px;
+    padding-top: 10px;
+}
+
+.header p {
+    font-size: 32px;
+    font-weight: 500;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 32px;
+}
+
+.hero {
+    background-color: #DF800C;
+}
+
+.vision {
+    font-family: Outfit;
+}
+
+.vision h6 {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 24px;
+}
+
+.bright {
+    font-size: 32px;
+    font-weight: 500;
+    padding-bottom: 32px;
+    color: white;
+    padding-left: 70px;
+    /* padding-right: 70px; */
+    width: 1200px;
+}
+
+.span {
+    color: #AD6408;
+    cursor: pointer;
+}
+
+.span:hover {
+    background-color: black;
+    color: white;
+}
+
+.mission {
+    font-size: 32px;
+    font-weight: 500;
+    padding-bottom: 32px;
+    color: white;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.together {
+    font-family: Outfit;
+    padding-bottom: 64px;
+}
+
+.gether  {
+    font-size: 32px;
+    font-weight: 700;
+    padding-top: 64px;
+    padding-bottom: 32px;
+    text-align: center;
+}
+
+.aware {
+    display: flex;
+    /* gap: 80px; */
+    padding-left: 113px;
+    padding-right: 113px;
+}
+
+.health h6{
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 16px;
+    padding-bottom: 22px;
+}
+
+.health p {
+    font-size: 22px;
+    font-weight: 500;
+    width: 321px;
+    line-height: 32.24px;
+    padding-left: 20px
+}
+
+.health {
+    padding-right: 20px;
+}
+
+.ealth {
+    padding-left: 40px;
+}
+
+.spans {
+    color: #DF800C;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.spans:hover {
+    background-color: #DF800C;
+    color: white;
+}
+
+.economic h6{
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 16px;
+    padding-bottom: 22px;
+}
+
+.economic p {
+    font-size: 22px;
+    font-weight: 500;
+    width: 315px;
+    line-height: 32.24px;
+    padding-left: 20px
+}
+
+.economic {
+    padding-right: 20px;
+}
+
+.provide h6{
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 16px;
+    padding-bottom: 22px;
+}
+
+.provide p {
+    font-size: 22px;
+    font-weight: 500;
+    width: 322px;
+    line-height: 32.24px;
+    padding-left: 20px
+}
+
+.testimon {
+    font-family: Outfit;
+    padding-bottom: 55px;
+}
+
+.testi {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 32px;
+    font-family: Outfit;
+}
+
+.two {
+    background-color: #DF800C;
+    width: 380px;
+    color: white;
+    border-radius: 20px;
+}
+
+.two img {
+    padding-left: 150px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+}
+
+.two h6 {
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 35px;
+    padding-bottom: 8px;
+    font-family: Outfit;
+}
+
+.two p {
+    font-size: 16px;
+    font-weight: 400;
+    width: 310px;
+    padding-left: 32px;
+    font-family: Outfit;
+}
+
+.comment {
+    display: flex;
+    gap: 10px;
+    padding-left: 111px;
+}
+
+.donor {
+    background-color: #DF800C;
+    color: white;
+    font-family: Outfit;
+}
+
+.become {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.most {
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+    width: 1225px;
+    padding-left: 107px;
+    padding-bottom: 32px;
+}
+
+.donate {
+    width: 200px;
+    height: 80px;
+    background-color: #F1BC0C;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 570px;
+    margin-bottom: 32px;
+    cursor: pointer;
+}
+
+.donate:hover {
+    color: #DF800C;
+    background-color: white;
+}

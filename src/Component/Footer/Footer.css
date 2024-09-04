@@ -1,0 +1,110 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.foundation {
+    background-color: #DF800C66;
+}
+
+.dation {
+    padding-left: 100px;
+    padding-top: 64px;
+    font-family: Outfit;
+    display: flex;
+    gap: 49px;
+    padding-bottom: 48px;
+}
+
+.support h6 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #4A4343;
+    padding-bottom: 17px;
+}
+
+.support p {
+    font-size: 18px;
+    font-weight: 600;
+    width: 371px;
+}
+
+.blog h6 {
+    font-size: 26px;
+    font-weight: 700;
+    padding-bottom: 57px;
+}
+
+.all {
+    display: flex;
+    gap: 22px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.all p {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.socials h6 {
+    font-size: 26px;
+    font-weight: 700;
+    padding-bottom: 57px;
+}
+
+.subscribe h6 {
+    font-size: 26px;
+    font-weight: 700;
+    padding-bottom: 57px;
+}
+
+.subscribe input {
+    width: 350px;
+    height: 70px;
+    border: none;
+    font-size: 16px;
+    color: black;
+    padding-left: 20px;
+    margin-bottom: 32px;
+    border-radius: 10px;
+}
+
+.subscribe button {
+    width: 200px;
+    height: 80px;
+    border: none;
+    border-radius: 10px;
+    background-color: #F1BC0C;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.subscribe button:hover {
+    background-color: white;
+    color: #DF800C66;
+}
+
+.oya {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copy {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: Outfit;
+    color: white;
+    padding-left: 100px;
+}
+
+.policy {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: Outfit;
+    color: white;
+    padding-right: 102px;
+}
