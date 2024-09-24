@@ -65,7 +65,7 @@ function Started() {
           Our partnership options range from one- time donation of services to ongoing collaborations, and an include everything 
           from event planing and promotion to photography and social media management. Whether you’re an individual with a 
           passion project or a business looking to give back, we welcome the opportunity to work together and create positive change. <br></br>
-          <span className='see-more'> Here is the Link </span> : <a href='#'> https://forms.gle/aaQpovdW97CiqUNy7 </a> 
+          <a href='https://forms.gle/aaQpovdW97CiqUNy7'><span className='see-more'> Here is the Link </span> </a> 
         </p>
       </div>
       <div className='missioso'>
@@ -86,8 +86,8 @@ function Started() {
           outreach and program support, there are many ways to lend a helping hand. Whether you have a few hours a 
           week or a day, we have a role that’s right for you. As a volunteer with VOJ Foundation , you’ll not onl 
           be making a tangible impact , but also be part of a vibrant community f like- minded individuals who 
-          share our passion for creating positive change. Ready to get started? <br></br> <span className='see-more'> Apply to become a volunteer today 
-          by clicking this link</span> : <a href='#'> https://forms.gle/13NzpcCgKFG4tTu18</a>
+          share our passion for creating positive change. Ready to get started? <br></br> <a href='https://forms.gle/13NzpcCgKFG4tTu18'> <span className='see-more'> Apply to become a volunteer today 
+          by clicking this link</span> </a>
         </p>
       </div>
       <div className='missiosso'>
@@ -106,7 +106,7 @@ function Started() {
           If you have a special skill or expertise, such as photography, catering, event panning, or promotion, 
           we’d love to hear from you! Consider donating your services to help us amplify our impact. By contributing 
           your talents, you ca help us take our project to the next level and make a meaningful difference in the lives 
-          of those w serve.To share your skills and expertise with us.<br></br> <span className='see-more'> Click here to apply:</span>  <a href='#'> https://forms.gle/yhnTmepJPPSwXJ3C8</a>
+          of those w serve.To share your skills and expertise with us.<br></br> <a href='https://forms.gle/yhnTmepJPPSwXJ3C8'><span className='see-more'> Click here to apply</span></a>
         </p>
       </div>
       <div className='donor'>

@@ -9,10 +9,34 @@ import Project from './Pages/Homepage/Project/Project'
 import Started from './Pages/Homepage/Started/Started'
 import Donate from './Pages/Donate/Donate'
 import Donate2 from './Pages/Donate/Donate2'
+// import useCollapse from 'react-collapsed';
 
 
+const App = () => {
 
-function App() {
+
+  const mainMenu = document.querySelector('.mainMenu');
+  const closeMenu = document.querySelector('.closeMenu');
+  const openMenu = document.querySelector('.openMenu');
+  const menu_items = document.querySelectorAll('nav .mainMenu li a');
+
+  openMenu.addEventListener('click',show);
+  closeMenu.addEventListener('click',close);
+
+  // close menu when you click on a menu item 
+  menu_items.forEach(item => {
+      item.addEventListener('click',function(){
+          close();
+      })
+  })
+
+  function show(){
+      mainMenu.style.display = 'flex';
+      mainMenu.style.top = '0';
+  }
+  function close(){
+      mainMenu.style.top = '-100%';
+  }
 
   return (
     <BrowserRouter>
@@ -22,13 +46,13 @@ function App() {
     {/* <About/> */}
     <Routes>
 
-    {/* <Route index element={<Homepage/>}/> */}
-    <Route path='homepage' element= {<Homepage/>}/>
+    <Route index element={<Homepage/>}/>
     <Route path='about' element= {<About/>}/>
     <Route path='project' element= {<Project/>}/>
     <Route path='started' element= {<Started/>}/>
     <Route path='donate' element= {<Donate/>}/>
     <Route path='donate2' element= {<Donate2/>}/>
+
 
     </Routes>
     </BrowserRouter>

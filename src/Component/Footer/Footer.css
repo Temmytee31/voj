@@ -85,7 +85,7 @@
 
 .subscribe button:hover {
     background-color: white;
-    color: #DF800C66;
+    color: black;
 }
 
 .oya {
@@ -107,4 +107,24 @@
     font-family: Outfit;
     color: white;
     padding-right: 102px;
+}
+
+@media screen and (max-width: 1024px) {
+    .foundation {
+        width: 100%;
+    }
+
+    .dation{
+        padding-left: 20px;
+    }
+
+    .support h6{
+        font-size: 25px;
+    }
+
+    .support p {
+        font-size: 15px;
+        width: 270px;
+        font-weight: 600;
+    }
 }

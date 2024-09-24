@@ -15,125 +15,145 @@
 
 .missio {
     display: flex;
-    padding-left: 100px;
-    padding-right: 99px;
+    margin-left: 100px;
     font-family: Outfit;
     padding-bottom: 40px;
 }
 
-.our {
-    font-size: 30px;
+.our button {
+    font-size: 35px;
     color: white;
     background-color: #F1BC0C;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 90px;
-    padding-right: 90px;
+    width: 385px;
+    height: 130px;
+    border: none;
+    font-weight: 700;
+    font-family: Outfit;
+    cursor: pointer;
 }
 
-.mis {
-    font-size: 30px;
+.mis button {
+    font-size: 35px;
     color: black;
     background-color: #DF800C;
     padding-top: 40px;
     padding-bottom: 40px;
-    padding-left: 90px;
-    padding-right: 90px;
+    width: 385px;
+    height: 130px;
+    border: none;
+    font-weight: 700;
+    font-family: Outfit;
+    cursor: pointer;
 }
 
-.work {
-    font-size: 30px;
+.work button {
+    font-size: 35px;
     color: black;
     background-color: #DF800C;
     padding-top: 40px;
     padding-bottom: 40px;
-    padding-left: 90px;
-    padding-right: 90px;
+    width: 385px;
+    height: 130px;
+    border: none;
+    font-weight: 700;
+    font-family: Outfit;
+    cursor: pointer;
 }
 
 .promote {
     font-size: 22.5px;
     font-weight: 500;
     font-family: Outfit;
-    padding-left: 100px;
-    padding-right: 99px;
+    padding-left: 108px;
+    padding-right: 108px;
     padding-bottom: 40px;
+    text-align: justify;
 }
 
 .missios {
     display: flex;
-    padding-left: 100px;
-    padding-right: 99px;
+    margin-left: 100px;
     font-family: Outfit;
     padding-bottom: 40px;
 }
 
-.ours {
-    font-size: 30px;
+.ours button {
+    font-size: 35px;
     color: black;
     background-color: #DF800C;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 90px;
-    padding-right: 90px;
+    width: 385px;
+    height: 130px;
+    border: none;
+    font-weight: 700;
+    font-family: Outfit;
+    cursor: pointer;
 }
 
-.miss {
-    font-size: 30px;
+.miss button {
+    font-size: 35px;
     color: white;
     background-color: #F1BC0C;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 90px;
-    padding-right: 90px;
+    width: 385px;
+    height: 130px;
+    border: none;
+    font-weight: 700;
+    font-family: Outfit;
+    cursor: pointer;
 }
 
-.works {
-    font-size: 30px;
+.works button {
+    font-size: 35px;
     color: black;
     background-color: #DF800C;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 90px;
-    padding-right: 90px;
+    width: 385px;
+    height: 130px;
+    border: none;
+    font-weight: 700;
+    font-family: Outfit;
+    cursor: pointer;
 }
 
 .missioss {
     display: flex;
-    padding-left: 100px;
-    padding-right: 99px;
+    margin-left: 100px;
     font-family: Outfit;
     padding-bottom: 40px;
 }
 
-.ourss {
-    font-size: 30px;
+.ourss button {
+    font-size: 35px;
     color: black;
     background-color: #DF800C;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 90px;
-    padding-right: 90px;
+    width: 385px;
+    height: 130px;
+    border: none;
+    font-weight: 700;
+    font-family: Outfit;
+    cursor: pointer;
 }
 
-.misss {
-    font-size: 30px;
+.misss button {
+    font-size: 35px;
     color: black;
     background-color: #DF800C;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 90px;
-    padding-right: 90px;
+    width: 385px;
+    height: 130px;
+    border: none;
+    font-weight: 700;
+    font-family: Outfit;
+    cursor: pointer;
 }
 
-.workss {
-    font-size: 30px;
+.workss button {
+    font-size: 35px;
     color: white;
     background-color: #F1BC0C;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 90px;
-    padding-right: 90px;
+    width: 385px;
+    height: 130px;
+    border: none;
+    font-weight: 700;
+    font-family: Outfit;
+    cursor: pointer;
 }
 
 .promotes{
@@ -143,7 +163,9 @@
     padding-left: 100px;
     padding-right: 99px;
     padding-bottom: 1140px;
+    text-align: justify;
 }
+
 
 .see-more {
     color: #F1BC0C;

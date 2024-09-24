@@ -3,25 +3,36 @@ import './About.css';
 import Navbar from '../../../Component/Navbar/Navbar';
 import daddy from "../../../assets/daddy.png";
 import Footer from '../../../Component/Footer/Footer';
+// import useCollapse from 'react-collapsed';
+import { useState } from 'react';
 
 
-function About() {
+const About = ({Children, maxLength=100}) => {
+
+
+  // let [expanded, setExpended] = useState(true)
+
+  // if (Children.length <= maxLength) return <p>{Children} </p>
+
+  // let text = expanded ? Children.substring(0, maxLength) : Children
+
+
   return (
     <div>
-      <Navbar/>
-      <div className='daddy'>
+       {/* <Navbar/> */}
+      {/*<div className='daddy'>
         <img src={daddy} alt=''></img>
       </div>
       <div>
         <div className='missio'>
           <div className='our'>
-            <h3>Our Mission</h3>
+          <button> Our Mission</button> 
           </div>
           <div className='mis'>
-            <h3>Our Mission</h3>
+          <button> Our Vision</button> 
           </div>
           <div className='work'>
-            <h3>How We Work</h3>
+          <button> How We Work</button> 
           </div>
         </div>
       </div>
@@ -34,13 +45,13 @@ function About() {
       </div>
       <div className='missios'>
         <div className='ours'>
-          <h3>Our Mission</h3>
+        <button> Our Mission</button> 
         </div>
         <div className='miss'>
-          <h3>Our Mission</h3>
+        <button> Our Vision</button> 
         </div>
         <div className='works'>
-          <h3>How We Work</h3>
+        <button> How We Work</button> 
         </div>
       </div>
       <div className='promote'>
@@ -53,32 +64,29 @@ function About() {
       </div>
       <div className='missioss'>
         <div className='ourss'>
-          <h3>Our Mission</h3>
+        <button> Our Mission</button>
         </div>
         <div className='misss'>
-          <h3>Our Mission</h3>
+        <button> Our Vision</button> 
         </div>
         <div className='workss'>
-          <h3>How We Work</h3>
+        <button> How We Work</button>
         </div>
       </div>
-      <div className='promotes'>
-        <p>
-          Our organization provides financial support to women, children and communities facing economic hardships 
-          that threaten their lives, impede their progress and land them in unfavorable circumstances. We strive to 
-          empower these vulnerable groups by offering resources that can help them improve their quality of life. <span className='see-more'>See More</span>
-        </p>
-      </div>
-      <div className='donors'>
+       {/* <p> {text} </p>
+      <button onClick={ ()=> setExpended(!expanded) }> {expanded? "Read more": "Read less"} </button> */}
+
+        {/* <div className='donors'>
         <h6 className='becomes'>Become a volunteer</h6>
         <h6 className='mosts'>
           Join us to make an impact Lets make an end  to te suffering Join us to make an impact Lets make an end  
           to te suffering Join us to make an impact    
         </h6>
         <button className='donates'>Join Now</button>
-      </div>
-      <Footer/>
+      </div> */}
+       <Footer/>
     </div>
+
   )
 }
 

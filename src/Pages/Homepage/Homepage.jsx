@@ -16,7 +16,7 @@ function Homepage() {
     <div>
         <Navbar/>
         <section>
-            <div className='header'>
+            {/* <div className='header'>
                 <h3>VOJ FOUNDATION</h3>
                 <p>
                     The VOJ Foundation is dedicated to providing support and resources to economically disadvantaged 
@@ -24,8 +24,8 @@ function Homepage() {
                     education skill-building, and financial assistance , so they can become self-sufficient and lead fulfilling  lives 
                 </p>
                 <img src={photo} alt='' ></img>
-            </div>
-            <div className='hero'>
+            </div> */}
+            {/* <div className='hero'>
                 <div className='vision'>
                     <h6>Our Vision & Mission</h6>
                     <p className='bright'>
@@ -38,28 +38,31 @@ function Homepage() {
                     </p>
                 </div>
             </div>
-            <div className='together'>
+            {/* <div className='together'>
                 <h6 className='gether'>Together in 2021,</h6>
                 <div className='aware'>
                     <div className='health'>
                         <img className='ealth' src={health} alt=''></img>
                         <h6>Health And Nutrition  Awareness</h6>
                         <p>
-                            It ensures that they have essential items to sustain themselves for the next two weeks . <span className='spans'> Learn More</span>
+                            It ensures that they have essential items to sustain themselves for the next two weeks . <a href='https://www.linkedin.com/posts/voj-foundation_the-session-delivered-by-ms-temisaren-on-activity-7191132758256082944-4qyd?utm_source=share&utm_medium=member_android'>
+                            <span className='spans'> Learn More</span> </a> 
                         </p>
                     </div>
                     <div className='economic'>
-                        <img className='ealth' src={economic} alt=''></img>
+                        <img className='ealths' src={economic} alt=''></img>
                         <h6>Providing Economic Empowerment</h6>
                         <p>
-                            Industry experts conducted speaking sessions highlighting the significance of human rights . <span className='spans'> Learn More</span>
+                            Industry experts conducted speaking sessions highlighting the significance of human rights . <a href='https://www.linkedin.com/posts/voj-foundation_through-participation-in-voj-foundations-activity-7193580824380747776-lT1L?utm_source=share&utm_medium=member_desktop'>
+                            <span className='spans'> Learn More</span></a>
                         </p>
                     </div>
                     <div className='provide'>
-                        <img className='ealth' src={provide} alt=''></img>
+                        <img className='ealthss' src={provide} alt=''></img>
                         <h6>Providing Housing Solutions</h6>
                         <p>
-                            The VOJ Foundation assited Three families in securing housing by providing finacial support. <span className='spans'> Learn More</span>
+                            The VOJ Foundation assited Three families in securing housing by providing finacial support. <a href='https://www.linkedin.com/posts/voj-foundation_the-session-delivered-by-ms-temisaren-on-activity-7191132758256082944-4qyd?utm_source=share&utm_medium=member_android'>
+                            <span className='spans'> Learn More</span></a> 
                         </p>
                     </div>
                 </div>
@@ -81,7 +84,7 @@ function Homepage() {
                             May you be blessed abundantly.
                         </p>
                     </div>
-                    <div className='two'>
+                    <div className='twos'>
                         <img src={kehinde} alt=''></img>
                         <h6>  Name:Kehinde Opatimilehin</h6>
                         <h6> Profile: widow</h6>
@@ -108,18 +111,18 @@ function Homepage() {
                         </p>
                     </div>
                 </div>
-            </div>
-            <div className='donor'>
+            </div>*/}
+            {/* <div className='donor'>
                     <h6 className='become'>Become A Donor</h6>
                     <h6 className='most'>
                         One of the most meaningful ways to make an impact is by making a donation to our
                         organization. Your financial contribution will enable us to continue providing critical 
                         support to those in need, funding innovative programs, and amplifying our advocacy efforts.
                     </h6>
-                    <button className='donate'>Donate Now</button>
-            </div>
+                    <a href='Donate'><button className='donate'>Donate Now</button></a>
+            </div> */}
         </section>
-        <Footer/>
+        {/* <Footer/>  */}
     </div>
   )
 }
