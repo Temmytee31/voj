@@ -4,31 +4,38 @@
     box-sizing: border-box;
 }
 
+.section {
+    margin: 0% auto;
+}
+
 .header {
     font-family: Outfit;
     text-align: center;
     padding-bottom: 64px;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .header h3 {
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 700;
     padding-bottom: 32px;
     padding-top: 10px;
 }
 
 .header p {
-    font-size: 32px;
+    font-size: 25px;
     font-weight: 500;
     padding-left: 90px;
     padding-right: 90px;
     padding-bottom: 32px;
 }
 
+.head {
+    width: 900px;
+}
+
 .hero {
     background-color: #DF800C;
-    width: 100%;
 }
 
 .vision {
@@ -317,131 +324,12 @@
     background-color: white;
 }
 
-@media screen and (max-width: 1024px) {
-    .header {
-       width: 100%;
-       overflow-x: hidden;
-    }
-
-    .header h3 {
-        font-size: 50px;
-        font-weight: 700;
-        padding-bottom: 30px;
-        padding-top: 10px;
-    }
-
+@media (max-width: 768px) {
     .header p {
-        font-size: 22px;
-        font-weight: 500;
-        padding-left: 70px;
-        padding-right: 90px;
-        padding-bottom: 30px;
-    }
-
-    .header img{
-        width: 80%;
-    }
-
-    .hero {
-        width: 75%;
-        overflow-x: hidden;
-    }
-
-    .vision h6 {
-        font-size: 27px;
-        font-weight: 700;
-        text-align: center;
-        padding-top: 32px;
-        padding-bottom: 24px;
-    }
-
-    .bright {
-        font-size: 27px;
-        font-weight: 500;
-        padding-bottom: 30px;
-        color: white;
         padding-left: 50px;
-        padding-right: 40px;
-        width: 750px;
-        text-align: justify;
+        padding-right: 50px;
     }
-
-    .mission {
-        font-size: 27px;
-        font-weight: 500;
-        padding-bottom: 30px;
-        color: white;
-        padding-left: 50px;
-        padding-right: 40px;
-        text-align: justify;
-        width: 750px;
-    }
-
-    .together {
-        width: 80%;
-    }
-
-    .gether {
-        font-size: 30px;
-        padding-top: 58px;
-        padding-bottom: 32px;
-    }
-
-    .aware {
-        padding-left: 30px;
-    }
-
-    .health h6 {
-        font-size: 17px;
-        padding-left: 0px;
-    }
-
-    .health p {
-        font-size: 14px;
-        width: 290px;
-        padding-left: 10px;
-    }
-
-    .health{
-        padding-right: 0px;
-    }
-
-    .ealth {
-        padding-left: 1px;
-        width: 70%;
-    }
-
-    .ealths {
-        padding-left: 1px;
-        width: 70%;
-    }
-
-    .ealthss {
-        padding-left: 1px;
-        width: 70%;
-    }
-
-    .economic h6 {
-        font-size: 18px;
-    }
-
-    .economic p {
-        font-size: 15px;
-        width: 290px;
-        /* padding-left: 10px; */
-    }
-
-    .economic {
-        padding-right: 0px;
-    }
-
-    .provide h6 {
-        font-size: 18px;
-    }
-
-    .provide p {
-        font-size: 15px;
-        width: 290px;
-        /* padding-left: 10px; */
+    .head {
+        width: 600px;
     }
 }

@@ -1,45 +1,45 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './Navbar.css';
 import logo from "../../assets/logo.png";
 import About from '../../Pages/Homepage/About/About';
 import Homepage from '../../Pages/Homepage/Homepage';
 
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
 
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+    }
 
   return (
     <div>
-      <div className='logo'>
-        <nav>
-          <img src={logo} alt=''></img>
-          <div class="openMenu"><i class="fa fa-bars"></i></div>
-          <ul  className='mainMenu'>
-            <a href='Homepage'> 
-              <li className='home'>Home</li>
-              </a>
-            <a href='About'> 
-              <li className='about'>About</li> 
-              </a>
-              {/* <ul className='submenu'>
-                <li>Our Mission</li>
-                <li>Our Vision</li>
-                <a href=''> <li>Meet The Team</li></a> 
-              </ul> */}
-            <a href='Project'> 
-              <li className='project'>Project</li> 
-              </a>
-            <a href='Started'> 
-              <li className='get'>Get Involoved</li> 
-              </a>
-            <a href='Donate'> 
-              <button className='button'>Donate Now</button>
+      <nav className="navbar">
+        <div className="navbar-logo">
+          <img src={logo} alt="Logo" />
+        </div>
+          <div className={`navbar-links ${isOpen ? "open" : ""}`}>
+            <a href="#home">
+              <li>Home</li>
             </a>
-            <div class="closeMenu"><i class="fa fa-times"></i></div>
-          </ul>
-        </nav>
-      </div>
-    </div>
-  )
+            <a href="about">
+              <li> About</li>
+            </a>
+            <a href="projects">
+              <li>Projects</li>
+            </a>
+            <a href="involved">
+              <li>Get Involved</li>
+            </a>
+            <a href="donate"> <button className="donate-btn">Donate Now</button> </a>
+          </div>
+        <div className="hamburger" onClick={toggleMenu}>
+          <div className="bar"></div>
+          <div className="bar"></div>
+          <div className="bar"></div>
+        </div>
+    </nav>
+  </div>
+)
 }
 
 export default Navbar

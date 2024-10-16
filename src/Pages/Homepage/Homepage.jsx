@@ -8,23 +8,23 @@ import economic from "../../assets/economic.png";
 import provide from "../../assets/provide.png";
 import kehinde from "../../assets/kehinde.png";
 import two from "../../assets/two.png";
-// import family from "../../assets/family.png";
+import family from "../../assets/family.png";
 
 
 function Homepage() {
   return (
     <div>
         <Navbar/>
-        <section>
-            {/* <div className='header'>
+        <section className='section'>
+            <div className='header'>
                 <h3>VOJ FOUNDATION</h3>
                 <p>
                     The VOJ Foundation is dedicated to providing support and resources to economically disadvantaged 
                     women, children and communities in Nigeria. We aim to empower these individuals through 
                     education skill-building, and financial assistance , so they can become self-sufficient and lead fulfilling  lives 
                 </p>
-                <img src={photo} alt='' ></img>
-            </div> */}
+                <img src={photo} alt='' className='head'></img>
+            </div>
             {/* <div className='hero'>
                 <div className='vision'>
                     <h6>Our Vision & Mission</h6>
@@ -37,7 +37,7 @@ function Homepage() {
                         solutions for Small and Medium Enterprises (SMEs) and Micro, Small, and Medium Enterprises (MSMEs). <span className='span'>Learn More</span>
                     </p>
                 </div>
-            </div>
+            </div> */}
             {/* <div className='together'>
                 <h6 className='gether'>Together in 2021,</h6>
                 <div className='aware'>
@@ -66,8 +66,8 @@ function Homepage() {
                         </p>
                     </div>
                 </div>
-            </div>
-            <div className='testimon'>
+            </div> */}
+            {/* <div className='testimon'>
                 <h6 className='testi'>TESTIMONIALS</h6>
                 <div className='comment'>
                     <div className='two'>
@@ -111,15 +111,15 @@ function Homepage() {
                         </p>
                     </div>
                 </div>
-            </div>*/}
+            </div> */}
             {/* <div className='donor'>
-                    <h6 className='become'>Become A Donor</h6>
-                    <h6 className='most'>
-                        One of the most meaningful ways to make an impact is by making a donation to our
-                        organization. Your financial contribution will enable us to continue providing critical 
-                        support to those in need, funding innovative programs, and amplifying our advocacy efforts.
-                    </h6>
-                    <a href='Donate'><button className='donate'>Donate Now</button></a>
+                <h6 className='become'>Become A Donor</h6>
+                <h6 className='most'>
+                    One of the most meaningful ways to make an impact is by making a donation to our
+                    organization. Your financial contribution will enable us to continue providing critical 
+                    support to those in need, funding innovative programs, and amplifying our advocacy efforts.
+                </h6>
+                <a href='Donate'><button className='donate'>Donate Now</button></a>
             </div> */}
         </section>
         {/* <Footer/>  */}
