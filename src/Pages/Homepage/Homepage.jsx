@@ -122,7 +122,7 @@ function Homepage() {
                 <a href='Donate'><button className='donate'>Donate Now</button></a>
             </div> */}
         </section>
-        <Footer/> 
+        {/* <Footer/>  */}
     </div>
   )
 }
