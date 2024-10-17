@@ -14,7 +14,7 @@ import family from "../../assets/family.png";
 function Homepage() {
   return (
     <div>
-        <Navbar/>
+        {/* <Navbar/> */}
         <section className='section'>
             <div className='header'>
                 <h3>VOJ FOUNDATION</h3>
