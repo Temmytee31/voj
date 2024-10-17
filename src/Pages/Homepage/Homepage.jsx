@@ -8,7 +8,7 @@ import economic from "../../assets/economic.png";
 import provide from "../../assets/provide.png";
 import kehinde from "../../assets/kehinde.png";
 import two from "../../assets/two.png";
-import family from "../../assets/family.png";
+// import family from "../../assets/family.png";
 
 
 function Homepage() {
