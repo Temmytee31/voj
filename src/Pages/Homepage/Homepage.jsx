@@ -1,7 +1,5 @@
 import React from 'react';
 import './Homepage.css';
-import Navbar from '../../Component/Navbar/Navbar';
-import Footer from '../../Component/Footer/Footer';
 import photo from "../../assets/photo.png";
 import health from "../../assets/health.png";
 import economic from "../../assets/economic.png";
@@ -9,12 +7,14 @@ import provide from "../../assets/provide.png";
 import kehinde from "../../assets/kehinde.png";
 import two from "../../assets/two.png";
 import family from "../../assets/family.png";
+import Navbar from '../../Component/Navbar/Navbar';
+import Footer from '../../Component/Footer/Footer';
 
 
 function Homepage() {
   return (
     <div>
-        {/* <Navbar/> */}
+        <Navbar/>
         <section className='section'>
             <div className='header'>
                 <h3>VOJ FOUNDATION</h3>
@@ -71,7 +71,7 @@ function Homepage() {
                 <h6 className='testi'>TESTIMONIALS</h6>
                 <div className='comment'>
                     <div className='two'>
-                        <img src={two} alt=''></img>
+                        <img className='mavy' src={two} alt=''></img>
                         <h6> Name:Victoria Godwin</h6>
                         <h6> Profile: Single Mother</h6>
                         <h6> No of Children:Two Children</h6>
@@ -85,7 +85,7 @@ function Homepage() {
                         </p>
                     </div>
                     <div className='twos'>
-                        <img src={kehinde} alt=''></img>
+                        <img className='mavy' src={kehinde} alt=''></img>
                         <h6>  Name:Kehinde Opatimilehin</h6>
                         <h6> Profile: widow</h6>
                         <h6>  No of Children:Four Children</h6>
@@ -99,7 +99,7 @@ function Homepage() {
                         </p>
                     </div>
                     <div className='twoss'>
-                        <img src={family} alt=''></img>
+                        <img className='mavy' src={family} alt=''></img>
                         <h6>  Name:Mrs. Chidinma Okechukwu</h6>
                         <h6> Profile: Single Mother</h6>
                         <h6> No of Children:Three Children</h6>
@@ -112,7 +112,7 @@ function Homepage() {
                     </div>
                 </div>
             </div>
-            {/* <div className='donor'>
+            <div className='donor'>
                 <h6 className='become'>Become A Donor</h6>
                 <h6 className='most'>
                     One of the most meaningful ways to make an impact is by making a donation to our
@@ -120,9 +120,9 @@ function Homepage() {
                     support to those in need, funding innovative programs, and amplifying our advocacy efforts.
                 </h6>
                 <a href='Donate'><button className='donate'>Donate Now</button></a>
-            </div> */}
+            </div>
         </section>
-        {/* <Footer/>  */}
+        <Footer/>
     </div>
   )
 }

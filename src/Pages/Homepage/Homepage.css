@@ -1,355 +1,221 @@
-*{
-    padding: 0%;
-    margin: 0%;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
 }
 
 .section {
-    margin: 0% auto;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 .header {
-    font-family: Outfit;
     text-align: center;
-    padding-bottom: 64px;
-    /* width: 100%; */
+    padding: 50px 0;
 }
 
 .header h3 {
-    font-size: 30px;
+    font-size: 32px;
     font-weight: 700;
-    padding-bottom: 32px;
-    padding-top: 10px;
+    margin-bottom: 16px;
 }
 
 .header p {
     font-size: 18px;
     font-weight: 500;
-    padding-left: 90px;
-    padding-right: 90px;
-    padding-bottom: 32px;
-    align-items: center;
+    margin: 0 auto 32px;
+    max-width: 800px;
+    text-align: center;
 }
 
 .head {
-    width: 900px;
-}
-.head.img{
     width: 100%;
-}
-.hero {
-    background-color: #DF800C;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
-.vision {
-    font-family: Outfit;
+.hero {
+    width: 100%;
+    background-color: #DF800C;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
 }
 
 .vision h6 {
-    font-size: 25px;
+    font-size: 24px;
     font-weight: 600;
-    text-align: center;
-    padding-top: 32px;
-    padding-bottom: 24px;
+    margin-bottom: 16px;
 }
 
 .bright {
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 400;
-    padding-bottom: 32px;
-    color: white;
-    padding-left: 90px;
-    padding-right: 90px;
-    text-align: justify;
+    line-height: 1.5;
+    margin: 0 auto 16px;
+    max-width: 800px;
+}
+
+.mission {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0 auto 16px;
+    max-width: 800px;
 }
 
 .span {
     color: #643802;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .span:hover {
     background-color: rgb(90, 90, 241);
     color: white;
     border-radius: 30%;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.mission {
-    font-size: 25px;
-    font-weight: 400;
-    padding-bottom: 32px;
-    color: white;
-    padding-left: 90px;
-    padding-right: 90px;
-    text-align: justify;
+    padding: 5px 10px;
 }
 
 .together {
-    font-family: Outfit;
-    padding-bottom: 64px;
-    /* width: 100%; */
+    text-align: center;
+    padding: 50px 20px;
 }
 
-.gether  {
-    font-size: 25px;
+.gether {
+    font-size: 24px;
     font-weight: 700;
-    padding-top: 64px;
-    padding-bottom: 32px;
-    text-align: center;
+    margin-bottom: 32px;
 }
 
 .aware {
     display: flex;
-    gap: 90px;
-    /* justify-content: space-between; */
-    padding-left: 90px;
-    padding-right: 90px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
 }
 
-.aware a {
-    text-decoration: none;
-    
+.aware div {
+    width: 100%;
+    max-width: 320px;
 }
 
-.health h6{
+.aware h6 {
     font-size: 18px;
     font-weight: 700;
-    padding-top: 16px;
-    padding-bottom: 22px;
-    text-align: center;
-    padding-left: 20px;
+    margin-top: 16px;
 }
 
-.health p {
-    font-size: 17px;
+.aware p {
+    font-size: 1rem;
     font-weight: 400;
-    width: 321px;
-    line-height: 32.24px;
-    padding-left: 20px
+    line-height: 1.5;
+    margin: 1rem 0;
 }
 
-.health {
-    padding-right: 20px;
-}
-
-.ealth {
-    padding-left: 30px;
+.ealth, .ealths, .ealthss {
     width: 80%;
-}
-
-.ealths {
-    padding-left: 30px;
-    width: 80%;
-}
-
-.ealthss {
-    padding-left: 30px;
-    width: 80%;
+    margin: 0 auto;
 }
 
 .spans {
     color: #DF800C;
     font-weight: 700;
     cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .spans:hover {
     background-color: #DF800C;
     color: white;
     border-radius: 30%;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 5px 10px;
 }
 
-.economic h6{
-    font-size: 18px;
-    font-weight: 700;
-    padding-top: 16px;
-    padding-bottom: 22px;
-    text-align: center;
-}
-
-.economic p {
-    font-size: 17px;
-    font-weight: 400;
-    width: 315px;
-    line-height: 32.24px;
-    padding-left: 20px
-}
-
-.economic {
-    padding-right: 20px;
-}
-
-.provide h6{
-    font-size: 18px;
-    font-weight: 700;
-    padding-top: 16px;
-    padding-bottom: 22px;
-    text-align: center;
-}
-
-.provide p {
-    font-size: 17px;
-    font-weight: 400;
-    width: 322px;
-    line-height: 32.24px;
-    padding-left: 20px
+a {
+    text-decoration: none;
 }
 
 .testimon {
-    font-family: Outfit;
-    padding-bottom: 55px;
+    padding: 50px 20px;
+    text-align: center;
 }
 
 .testi {
-    font-size: 25px;
+    font-size: 24px;
     font-weight: 700;
-    text-align: center;
-    padding-bottom: 32px;
-    font-family: Outfit;
-}
-
-.two {
-    background-color: #DF800C;
-    width: 380px;
-    color: white;
-    border-radius: 20px;
-}
-
-.two img {
-    padding-left: 140px;
-    padding-top: 8px;
-    padding-bottom: 10px;
-}
-
-.two h6 {
-    font-size: 18px;
-    font-weight: 500;
-    padding-left: 35px;
-    padding-bottom: 8px;
-    font-family: Outfit;
-}
-
-.two p {
-    font-size: 16px;
-    /* font-weight: 400; */
-    width: 310px;
-    padding-left: 32px;
-    font-family: Outfit;
-    text-align: justify;
-}
-
-.twos {
-    background-color: #DF800C;
-    width: 430px;
-    color: white;
-    border-radius: 20px;
-    height: 480px;
-}
-
-.twos img {
-    padding-left: 150px;
-    padding-top: 8px;
-    padding-bottom: 10px;
-}
-
-.twos h6 {
-    font-size: 18px;
-    font-weight: 500;
-    padding-left: 60px;
-    padding-bottom: 8px;
-    font-family: Outfit;
-}
-
-.twos p {
-    font-size: 16px;
-    font-weight: 400;
-    padding-left: 60px;
-    padding-right: 60px;
-    font-family: Outfit;
-    text-align: justify;
-}
-
-.twoss {
-    background-color: #DF800C;
-    width: 380px;
-    color: white;
-    border-radius: 20px;
-}
-
-.twoss img {
-    padding-left: 140px;
-    padding-top: 8px;
-    padding-bottom: 10px;
-}
-
-.twoss h6 {
-    font-size: 18px;
-    font-weight: 500;
-    padding-left: 35px;
-    padding-bottom: 8px;
-    font-family: Outfit;
-}
-
-.twoss p {
-    font-size: 16px;
-    /* font-weight: 400; */
-    width: 310px;
-    padding-left: 32px;
-    font-family: Outfit;
-    text-align: justify;
+    margin-bottom: 32px;
 }
 
 .comment {
     display: flex;
-    gap: 10px;
-    padding-left: 107px;
-    padding-right: 107px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.comment div {
+    background-color: #DF800C;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    max-width: 360px;
+    text-align: left;
+}
+
+.comment h6 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.comment p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+.mavy {
+    margin-left: 40%;
+    
 }
 
 .donor {
     background-color: #DF800C;
     color: white;
-    font-family: Outfit;
+    padding: 50px 20px;
+    text-align: center;
 }
 
 .become {
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 700;
-    text-align: center;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    margin-bottom: 16px;
 }
 
 .most {
-    font-size: 32px;
+    font-size: 18px;
     font-weight: 500;
-    text-align: center;
-    width: 1225px;
-    padding-left: 107px;
-    padding-bottom: 32px;
+    max-width: 800px;
+    margin: 0 auto 32px;
 }
 
 .donate {
-    width: 200px;
-    height: 80px;
+    padding: 15px 30px;
     background-color: #F1BC0C;
     color: white;
     border: none;
-    border-radius: 10px;
-    font-size: 24px;
+    border-radius: 5px;
+    font-size: 1.25rem;
     font-weight: 700;
-    margin-left: 570px;
-    margin-bottom: 32px;
     cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .donate:hover {
@@ -358,146 +224,68 @@
 }
 
 @media (max-width: 1024px) {
-    .aware {
-        gap: 10px;
-        padding-left: 0%;
-        padding-right: 0%;
+    .header p {
+        padding: 0 10px;
+        text-align: center;
     }
 
-    .comment {
-        padding-left: 0%;
-        padding-right: 0%;
+    .bright {
+        padding: 0 10px;
+        text-align: center;
+    }
+
+    .mission {
+        padding: 0 10px;
+        text-align: center;
+    }
+
+    .most {
+        padding: 0 10px;
+        text-align: center;
     }
 }
 
 @media (max-width: 768px) {
-    .header p {
-        padding-left: 40px;
-        padding-right: 40px;
-        font-size: 20px;
-    }
-    .head {
-        width: 100%;
-        padding: 20px;
-    }
-
-    .bright {
-        padding-left: 50px;
-        padding-right: 50px;
-        text-align: none;
-    }
-
-    .mission {
-        padding-left: 50px;
-        padding-right: 50px;
-        text-align: none;
-    }
-    
-    .aware {
-        display: block;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-
-    .health p {
-        padding-left: 50px;
-        padding-right: 50px;
-        width: fit-content;
-    }
-
-    .ealth {
-        width: 40%;
-    }
-    
-    .ealths {
-        width: 40%;
-    }
-    
-    .ealthss {
-        width: 40%;
-    }
-
-    .economic p {
-        padding-left: 50px;
-        padding-right: 50px;
-        width: fit-content;
-    }
-
-    .provide p {
-        padding-left: 50px;
-        padding-right: 50px;
-        width: fit-content;
+    /* .aware {
+        flex-direction: column;
     }
 
     .comment {
-        display: block;
-    }
-
-    .two {
-        margin-bottom: 10px;
-        margin-left: 200px;
-    }
-
-    .twos {
-        margin-bottom: 10px;
-        margin-left: 180px;
-        /* liepoints, ysense, prolific, prizerebel  */
-    }
-
-    .twoss {
-        margin-bottom: 10px;
-        margin-left: 200px;
-    }
+        flex-direction: column;
+    } */
 }
 
 @media (max-width: 425px) {
+    .header h3 {
+        font-size: 28px;
+    }
+
+    .header p {
+        font-size: 16px;
+    }
+
     .bright {
-        padding-left: 15px;
-        padding-right: 15px;
-        text-align: center;
+        font-size: 16px;
     }
 
     .mission {
-        padding-left: 5px;
-        padding-right: 5px;
-        text-align: center;
+        font-size: 1rem;
     }
 
-    .two {
-        margin-bottom: 10px;
-        margin-left: 25px;
+    .most {
+        font-size: 16px;
     }
 
-    .twos {
-        margin-bottom: 10px;
-        margin-left: 13px;
-        width: 400px;
-        /* liepoints, ysense, prolific, prizerebel  */
+    .become {
+        font-size: 20px;
     }
 
-    .twoss {
-        margin-bottom: 10px;
-        margin-left: 25px;
-    }
-}
-
-@media (max-width: 375px) {
-    .two {
-        margin-bottom: 10px;
-        margin-left: 1px;
-        width: 370px;
+    .testi {
+        font-size: 20px;
     }
 
-    .twos {
-        margin-bottom: 10px;
-        margin-left: 1px;
-        width: 370px;
-    }
-
-    .twoss {
-        margin-bottom: 10px;
-        margin-left: 1px;
-        width: 370px;
+    .donate {
+        padding: 10px 20px;
+        font-size: 16px;
     }
 }

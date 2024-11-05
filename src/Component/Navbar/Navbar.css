@@ -1,121 +1,164 @@
-*{
-    padding: 0%;
-    margin: 0%;
-    box-sizing: border-box;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  background-color: #DF800C;
 }
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    /* gap: 50px; */
-    align-items: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
-    background-color: #DF800C;
-  }
-  
-  .navbar-logo img {
-    width: 80px; 
-    cursor: pointer;
-  }
-  
-  .navbar-links {
-    display: flex;
-    gap: 40px;
-    text-align: center;
-    align-items:center;
-    /* padding-right: 50px; */
-  }
-  
-  .navbar-links li {
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 30px;
-    color: #4A4343;
-    font-family: Outfit;
-    list-style: none;
-  }
+.navbar-logo img {
+  width: 80px;
+}
 
-.navbar-links li:hover{
+.navbar-links {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.navbar-links a {
+  color: #4A4343;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s;
+}
+
+.navbar-links a:hover, .navbar-links a.donate-btn {
   color: white;
 }
 
-a {
-    text-decoration: none;
+.donate-btn {
+  padding: 10px 20px;
+  background-color: #F1BC0C;
+  color: white;
+  border-radius: 5px;
 }
 
-  .navbar-links a:hover{
-    color: white;
-  }
+.hamburger {
+  display: none;
+  cursor: pointer;
+  flex-direction: column;
+}
 
-  .donate-btn {
-    background-color: #F1BC0C;
-    padding: 10px 20px;
-    width: 200px;
-    border: none;
-    border-radius: 10px;
-    font-weight: 700;
-    color: white;
-    cursor: pointer;
-    font-size: 25px;
-    font-family: Outfit;
-    /* margin-left: 50px; */
-  }
+.hamburger .bar {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 4px 0;
+}
 
-  .donate-btn:hover{
-    color: #F1BC0C;
-    background-color: white;
-  }
-  
-  .hamburger {
+@media (max-width: 768px) {
+  .navbar-links {
     display: none;
+  }
+  .navbar-links.open {
+    display: flex;
     flex-direction: column;
-    cursor: pointer;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    background-color: #DF800C;
+    padding: 20px;
+    text-align: center;
   }
-  
-  .hamburger .bar {
-    width: 25px;
-    height: 3px;
-    background-color: white;
-    margin: 4px 0;
+  .hamburger {
+    display: flex;
   }
-  
-  @media (max-width: 768px) {
-    .navbar-links {
-      display: none;
-    }
-  
-    .navbar-links.open {
-      display: flex;
-      flex-direction: column;
-      position: absolute;
-      top: 90px;
-      right: 0;
-      background-color: #DF800C;
-      width: 100%;
-      justify-content: center;
-      gap: 20px;
-      text-align: center;
-      align-items: center;
-      /* padding-left: 310px; */
-      padding-bottom: 40px;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
-    }
-  
-    .navbar-button {
-      display: none;
-    }
-  
-    .hamburger {
-      display: flex;
-    }
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  background-color: #DF800C;
+}
+
+.navbar-logo img {
+  width: 80px;
+  cursor: pointer;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 30px;
+  color: #4A4343;
+  font-family: 'Outfit', sans-serif;
+}
+
+.navbar-links a.active, .navbar-links a:hover {
+  color: white;
+}
+
+.donate-btn {
+  background-color: #F1BC0C;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+  font-size: 25px;
+  font-family: 'Outfit', sans-serif;
+}
+
+.donate-btn:hover, .donate-btn:focus {
+  color: #F1BC0C;
+  background-color: white;
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.hamburger .bar {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 4px 0;
+}
+
+@media (max-width: 768px) {
+  .navbar-links {
+    display: none;
   }
-  
-  @media (max-width: 320px) {
-  
-    .hamburger {
-      margin-top: 10px;
-    }
+
+  .navbar-links.open {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 90px;
+    right: 0;
+    background-color: #DF800C;
+    width: 100%;
+    gap: 20px;
+    align-items: center;
+    padding-bottom: 40px;
   }
+
+  .hamburger {
+    display: flex;
+  }
+}
+
+@media (max-width: 320px) {
+  .hamburger {
+    margin-top: 10px;
+  }
+}

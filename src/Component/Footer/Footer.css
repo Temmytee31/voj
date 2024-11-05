@@ -1,46 +1,62 @@
-*{
-    padding: 0%;
-    margin: 0%;
+/* Reset Styles */
+* {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
+/* Footer Container */
 .foundation {
     background-color: #DF800C66;
+    font-family: 'Outfit', sans-serif;
+    padding: 40px 20px;
+    color: #4A4343;
+    margin-top: 50px;
 }
 
+/* Main Footer Content */
 .dation {
-    padding-left: 100px;
-    padding-top: 64px;
-    font-family: Outfit;
     display: flex;
-    gap: 49px;
-    padding-bottom: 48px;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 20px;
+    justify-content: space-between;
 }
 
-.support h6 {
-    font-size: 40px;
+/* Section Styling */
+.support, .blog, .socials, .subscribe {
+    flex: 1 1 250px;
+    margin: 10px 0;
+}
+
+.support h6,
+.blog h6,
+.socials h6,
+.subscribe h6 {
+    font-size: 24px;
     font-weight: 800;
     color: #4A4343;
-    padding-bottom: 17px;
+    margin-bottom: 10px;
 }
 
 .support p {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
-    width: 371px;
-}
-
-.blog h6 {
-    font-size: 26px;
-    font-weight: 700;
-    padding-bottom: 57px;
+    line-height: 1.5;
+    max-width: 350px;
 }
 
 .all {
     display: flex;
-    gap: 22px;
-    padding-bottom: 10px;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 0;
     cursor: pointer;
+}
+
+.all img {
+    width: 24px;
+    height: 24px;
 }
 
 .all p {
@@ -48,83 +64,106 @@
     font-weight: 600;
 }
 
-.socials h6 {
-    font-size: 26px;
-    font-weight: 700;
-    padding-bottom: 57px;
-}
-
 .subscribe h6 {
-    font-size: 26px;
-    font-weight: 700;
-    padding-bottom: 57px;
+    margin-bottom: 15px;
 }
 
 .subscribe input {
-    width: 350px;
-    height: 70px;
-    border: none;
+    width: 100%;
+    max-width: 300px;
+    padding: 15px;
     font-size: 16px;
-    color: black;
-    padding-left: 20px;
-    margin-bottom: 32px;
-    border-radius: 10px;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
 }
 
 .subscribe button {
-    width: 200px;
-    height: 80px;
-    border: none;
-    border-radius: 10px;
+    width: 100%;
+    max-width: 200px;
+    padding: 15px;
     background-color: #F1BC0C;
     color: white;
-    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
     font-weight: 700;
     cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 .subscribe button:hover {
     background-color: white;
-    color: black;
+    color: #F1BC0C;
+    border: 1px solid #F1BC0C;
 }
 
+/* Bottom Footer Row */
 .oya {
     display: flex;
     justify-content: space-between;
-}
-
-.copy {
-    font-size: 24px;
-    font-weight: 400;
-    font-family: Outfit;
+    align-items: center;
+    padding-top: 20px;
+    font-size: 14px;
+    font-weight: 600;
     color: white;
-    padding-left: 100px;
 }
 
+.copy,
 .policy {
-    font-size: 24px;
-    font-weight: 700;
-    font-family: Outfit;
-    color: white;
-    padding-right: 102px;
+    padding: 10px;
 }
 
-@media screen and (max-width: 1024px) {
-    .foundation {
-        width: 100%;
-    }
+.policy a {
+    color: white;
+    text-decoration: none;
+}
 
-    .dation{
-        padding-left: 20px;
-    }
+.policy a:hover {
+    text-decoration: underline;
+}
 
-    .support h6{
-        font-size: 25px;
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .dation {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 
     .support p {
-        font-size: 15px;
-        width: 270px;
-        font-weight: 600;
+        max-width: 100%;
+    }
+
+    .subscribe input, .subscribe button {
+        width: 100%;
+        max-width: none;
+    }
+
+    .oya {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .support h6,
+    .blog h6,
+    .socials h6,
+    .subscribe h6 {
+        font-size: 20px;
+    }
+
+    .support p,
+    .all p,
+    .copy,
+    .policy {
+        font-size: 14px;
+    }
+
+    .subscribe button {
+        font-size: 14px;
     }
 }

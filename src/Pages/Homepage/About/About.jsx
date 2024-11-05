@@ -3,24 +3,14 @@ import './About.css';
 import Navbar from '../../../Component/Navbar/Navbar';
 import daddy from "../../../assets/daddy.png";
 import Footer from '../../../Component/Footer/Footer';
-// import useCollapse from 'react-collapsed';
 import { useState } from 'react';
 
 
 const About = ({Children, maxLength=100}) => {
-
-
-  // let [expanded, setExpended] = useState(true)
-
-  // if (Children.length <= maxLength) return <p>{Children} </p>
-
-  // let text = expanded ? Children.substring(0, maxLength) : Children
-
-
   return (
     <div>
-       {/* <Navbar/> */}
-      {/*<div className='daddy'>
+       <Navbar/>
+      <div className='daddy'>
         <img src={daddy} alt=''></img>
       </div>
       <div>
@@ -73,17 +63,16 @@ const About = ({Children, maxLength=100}) => {
         <button> How We Work</button>
         </div>
       </div>
-       {/* <p> {text} </p>
-      <button onClick={ ()=> setExpended(!expanded) }> {expanded? "Read more": "Read less"} </button> */}
+      <button onClick={ ()=> setExpended(!expanded) }> {expanded? "Read more": "Read less"} </button>
 
-        {/* <div className='donors'>
+        <div className='donors'>
         <h6 className='becomes'>Become a volunteer</h6>
         <h6 className='mosts'>
           Join us to make an impact Lets make an end  to te suffering Join us to make an impact Lets make an end  
           to te suffering Join us to make an impact    
         </h6>
         <button className='donates'>Join Now</button>
-      </div> */}
+      </div>
        <Footer/>
     </div>
 
