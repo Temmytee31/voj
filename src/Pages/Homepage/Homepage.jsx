@@ -6,7 +6,7 @@ import economic from "../../assets/economic.png";
 import provide from "../../assets/provide.png";
 import kehinde from "../../assets/kehinde.png";
 import two from "../../assets/two.png";
-import family from "../../assets/family.png";
+import Family from "../../assets/Family.png";
 import Navbar from '../../Component/Navbar/Navbar';
 import Footer from '../../Component/Footer/Footer';
 
