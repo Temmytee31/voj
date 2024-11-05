@@ -99,7 +99,7 @@ function Homepage() {
                         </p>
                     </div>
                     <div className='twoss'>
-                        <img className='mavy' src={family} alt=''></img>
+                        <img className='mavy' src={Family} alt=''></img>
                         <h6>  Name:Mrs. Chidinma Okechukwu</h6>
                         <h6> Profile: Single Mother</h6>
                         <h6> No of Children:Three Children</h6>

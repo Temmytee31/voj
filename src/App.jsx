@@ -15,6 +15,10 @@ import Donate2 from './Pages/Donate/Donate2'
 const App = () => {
   return (
     <BrowserRouter>
+    {/* <Navbar/> */}
+    {/* {<Homepage/>} */}
+    {/* <Footer/> */}
+    {/* <About/> */}
     <Routes>
 
     <Route index element={<Homepage/>}/>
