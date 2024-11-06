@@ -1,229 +1,226 @@
-*{
-    padding: 0%;
-    margin: 0%;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
 }
 
 .Started {
     background-image: url("../../../assets/backgrounds.png");
+    background-size: cover;
+    padding: 20px;
+    color: #333;
+    text-align: center;
 }
 
 .starte p {
-    padding-top: 156px;
-    padding-bottom: 157px;
-    font-size: 29.9px;
-    font-family: Outfit;
+    font-size: 1.2rem;
     font-weight: 600;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 170px ;
+    padding-bottom: 170px;
     text-align: center;
-    padding-left: 94px;
-    padding-right: 95px;
+    /* padding-left: 90px;
+    padding-right: 90px; */
 }
 
 .don h6 {
-    font-size: 40px;
-    font-family: Outfit;
+    font-size: 1.8rem;
     font-weight: 700;
-    text-align: center;
     color: #DF800C;
-    padding-top: 64px;
+    margin-top: 50px;
+    text-align: center;
 }
 
 .don p {
-    font-size: 26px;
-    font-family: Outift;
+    font-size: 1rem;
     font-weight: 500;
-    padding-top: 32px;
+    max-width: 1000px;
+    margin: 20px auto;
     text-align: center;
-    padding-left: 170px;
-    padding-right: 170px;
-    padding-bottom: 15px;
 }
 
 .bank {
     display: flex;
-    gap: 300px;
-    padding-left: 106px;
-    padding-bottom: 60px;
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.bank div img {
+    max-width: 100px;
 }
 
 .months {
-    font-size: 24px;
-    font-family: Outfit;
+    font-size: 1rem;
     font-weight: 700;
+    margin: 30px auto;
     text-align: center;
-    padding-bottom: 100px;
+}
+
+.https {
+    font-size: 0.9rem;
 }
 
 .months a {
-    list-style: none;
+    color: #DF800C;
     text-decoration: none;
 }
 
 .months a:hover {
+    color: #FFFFFF;
     background-color: #DF800C;
-    color: white;
+    padding: 5px;
+    border-radius: 5px;
 }
 
-.https {
-    font-size: 20px;
-    font-weight: 500;
-    font-family: Outfit;
-}
-
-.missioo {
+.missioo, .missioso, .missiosso {
     display: flex;
-    padding-left: 100px;
-    padding-right: 99px;
-    font-family: Outfit;
-    padding-bottom: 40px;
+    justify-content: center;
+    /* gap: 15px; */
+    flex-wrap: wrap;
+    /* padding: 20px; */
+}
+
+.missioo div, .missioso div, .missiosso div {
+    font-size: 1rem;
+    padding: 20px 40px;
+    font-weight: 700;
+    text-align: center;
+    /* border-radius: 8px; */
+    color: #fff;
+    min-width: 400px;
 }
 
 .ouro {
-    font-size: 25px;
-    color: white;
     background-color: #F1BC0C;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 60px;
-    padding-right: 60px;
-}
-
-.miso {
-    font-size: 30px;
-    color: black;
-    background-color: #DF800C;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 90px;
-    padding-right: 90px;
-}
-
-.worko {
-    font-size: 30px;
-    color: black;
-    background-color: #DF800C;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 90px;
-    padding-right: 90px;
-}
-
-.promoteo {
-    font-size: 18.5px;
-    font-weight: 500;
-    font-family: Outfit;
-    padding-left: 100px;
-    padding-right: 99px;
-    padding-bottom: 64px;
-}
-
-.missioso {
-    display: flex;
-    padding-left: 100px;
-    padding-right: 99px;
-    font-family: Outfit;
-    padding-bottom: 40px;
 }
 
 .ourso {
-    font-size: 25px;
-    color: white;
     background-color: #DF800C;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 60px;
-    padding-right: 60px;
-}
-
-.misso {
-    font-size: 30px;
-    color: white;
-    background-color: #F1BC0C;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 90px;
-    padding-right: 90px;
-}
-
-.workso {
-    font-size: 30px;
-    color: black;
-    background-color: #DF800C;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 90px;
-    padding-right: 90px;
-}
-
-.missiosso {
-    display: flex;
-    padding-left: 100px;
-    padding-right: 99px;
-    font-family: Outfit;
-    padding-bottom: 40px;
+    
 }
 
 .oursso {
-    font-size: 25px;
-    color: white;
     background-color: #DF800C;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 60px;
-    padding-right: 60px;
+}
+
+.miso {
+    background-color: #DF800C;
+}
+
+.misso {
+    background-color: #F1BC0C;
 }
 
 .missso {
-    font-size: 30px;
-    color: white;
     background-color: #DF800C;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 90px;
-    padding-right: 90px;
+}
+
+.worko {
+    background-color: #DF800C;
+}
+
+.workso {
+    background-color: #DF800C;
 }
 
 .worksso {
-    font-size: 30px;
-    color: white;
     background-color: #F1BC0C;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 90px;
-    padding-right: 90px;
 }
 
-.promoteso {
-    font-size: 19px;
+.promoteo, .promoteso {
+    font-size: 0.9rem;
     font-weight: 500;
-    font-family: Outfit;
-    padding-left: 100px;
-    padding-right: 99px;
-    padding-bottom: 64px;
+    max-width: 1200px;
+    margin: 20px auto;
     text-align: justify;
 }
 
-.see-more {
+.promoteo a, .promoteso a {
     color: #F1BC0C;
     font-weight: 700;
-}
-
-.promoteo a {
-    list-style: none;
     text-decoration: none;
 }
 
-.promoteo a:hover {
+.promoteo a:hover, .promoteso a:hover {
+    color: #FFFFFF;
     background-color: #DF800C;
-    color: white;
+    padding: 3px 8px;
+    border-radius: 5px;
 }
 
-.promoteso a {
-    list-style: none;
-    text-decoration: none;
+@media (max-width: 1024px) {
+    .missioo div, .missioso div, .missiosso div {
+        min-width: 320px;
+    }
+
+    .promoteo, .promoteso {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
 }
 
-.promoteso a:hover {
-    background-color: #DF800C;
-    color: white;
+@media (max-width: 768px) {
+    .starte p {
+        font-size: 1rem;
+        padding: 60px 20px;
+    }
+
+    .don h6 {
+        font-size: 1.5rem;
+    }
+
+    .don p, .promoteo, .promoteso, .months {
+        padding: 0 20px;
+        font-size: 0.9rem;
+    }
+
+    .bank {
+        gap: 15px;
+    }
+
+    .missioo div, .missioso div, .missiosso div {
+        min-width: 100%;
+    }
+
+    .ourso, .oursso {
+        display: none;
+    }
+
+    .miso, .missso {
+        display: none;
+    }
+
+    .worko, .workso {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .starte p, .don h6, .don p, .months{
+        font-size: 0.85rem;
+        padding: 0 15px;
+    }
+
+    .bank {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .missioo div, .missioso div, .missiosso div {
+        font-size: 0.9rem;
+        padding: 10px 20px;
+    }
+
+    .promoteo, .promoteso {
+        font-size: 0.8rem;
+        padding: 0 15px;
+    }
 }

@@ -1,11 +1,9 @@
-/* Reset Styles */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-/* Footer Container */
 .foundation {
     background-color: #DF800C66;
     font-family: 'Outfit', sans-serif;
@@ -14,7 +12,6 @@
     margin-top: 50px;
 }
 
-/* Main Footer Content */
 .dation {
     display: flex;
     flex-wrap: wrap;
@@ -23,16 +20,12 @@
     justify-content: space-between;
 }
 
-/* Section Styling */
 .support, .blog, .socials, .subscribe {
     flex: 1 1 250px;
     margin: 10px 0;
 }
 
-.support h6,
-.blog h6,
-.socials h6,
-.subscribe h6 {
+.support h6, .blog h6, .socials h6, .subscribe h6 {
     font-size: 24px;
     font-weight: 800;
     color: #4A4343;
@@ -96,10 +89,8 @@
 .subscribe button:hover {
     background-color: white;
     color: #F1BC0C;
-    border: 1px solid #F1BC0C;
 }
 
-/* Bottom Footer Row */
 .oya {
     display: flex;
     justify-content: space-between;
@@ -124,7 +115,6 @@
     text-decoration: underline;
 }
 
-/* Responsive Adjustments */
 @media (max-width: 768px) {
     .dation {
         flex-direction: column;

@@ -1,200 +1,148 @@
-*{
-    padding: 0%;
-    margin: 0%;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+}
+
+.future {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding: 64px 0;
+    color: #333;
 }
 
 .hope {
     background-image: url("../../assets/backs.png");
-    padding-top: 140px;
-    padding-bottom: 127px;
+    background-size: cover;
+    padding: 60px 20px;
 }
 
 .inform {
     background-color: #DF800C;
-    margin-left: 183px;
-    margin-right: 183px;
-    font-family: Outfit;
-}
-
-.mat {
-    font-size: 32px;
-    font-weight: 700;
     color: white;
-    padding-top: 32px;
-    padding-bottom: 56px;
-    padding-left: 17px;
+    padding: 40px 20px;
+    max-width: 700px;
+    margin: 0 auto;
+    border-radius: 8px;
 }
 
-.bordered  {
-    font-size: 32px;
+.section-title {
+    font-size: 1.5rem;
     font-weight: 700;
-    font-family: Outfit;
+    margin-bottom: 24px;
+}
+
+.input-group {
     display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.incut[type="text"],
+.incut[type="email"] {
+    background: none;
+    border: none;
+    border-bottom: 2px solid #F1BC0C;
     color: white;
-    gap: 288px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-.fir {
-    border-bottom: 3px solid #F1BC0C;
-    width: 370px;
-    margin-bottom: 40px;
-    padding-bottom: 40px;
-}
-
-.las {
-    border-bottom: 3px solid #F1BC0C;
-    width: 370px;
-    margin-bottom: 40px;
-    padding-bottom: 40px;
-}
-
-.stree {
-    font-size: 32px;
-    font-weight: 700;
-    font-family: Outfit;
-    color: white;
-    margin-left: 15px;
-    padding-right: 15px;
-    border-bottom: 3px solid #F1BC0C;
-    width: 950px;
-    padding-bottom: 40px;
-}
-
-.city {
-    font-size: 32px;
-    font-weight: 700;
-    font-family: Outfit;
-    color: white;
-    margin-left: 15px;
-    padding-right: 15px;
-    padding-right: 15px;
-    display: flex;
-    padding-top: 40px;
-}
-
-.cit {
-    border-bottom: 3px solid #F1BC0C;
-    width: 370px;
-    margin-bottom: 40px;
-    padding-bottom: 40px;
-    margin-right: 116px;
-}
-
-.sta {
-    border-bottom: 3px solid #F1BC0C;
-    width: 230px;
-    margin-bottom: 40px;
-    padding-bottom: 40px;
-    margin-right: 40px;
-}
-
-.zip {
-    border-bottom: 3px solid #F1BC0C;
-    width: 230px;
-    margin-bottom: 40px;
-    padding-bottom: 40px;
-}
-
-.pay {
-    font-size: 32px;
-    font-weight: 700;
-    font-family: Outfit;
-    color: white;
-    padding-left: 15px;
-    padding-top: 40px;
-}
-
-.cred {
-    font-size: 32px;
-    font-weight: 700;
-    font-family: Outfit;
-    color: white;
-    padding-top: 40px;
-    border-bottom: 3px solid #F1BC0C;
-    width: 950px;
-    padding-bottom: 40px;
-    margin-left: 15px;
-}
-
-.citys {
-    font-size: 32px;
-    font-weight: 700;
-    font-family: Outfit;
-    color: white;
-    margin-left: 15px;
-    padding-right: 15px;
-    padding-right: 15px;
-    display: flex;
-    gap: 250px;
-    padding-top: 40px;
-}
-
-.cits {
-    border-bottom: 3px solid #F1BC0C;
-    width: 370px;
-    margin-bottom: 32px;
-    padding-bottom: 40px;
-}
-
-.para {
     font-size: 16px;
+    padding: 8px 0;
+    width: 100%;
+    font-family: 'Outfit', sans-serif;
+    outline: none;
+}
+
+.incut[type="text"]::placeholder,
+.incut[type="email"]::placeholder {
+    color: #f0f0f0;
+}
+
+.confirmation-text {
+    font-size: 1rem;
     font-weight: 700;
-    font-family: Outfit;
     color: #F1BC0C;
-    padding-left: 15px;
-    cursor: pointer;
-}
-
-.para:hover {
-    background-color: #F1BC0C;
-    color: white;
-}
-
-.cancels {
-    display: flex;
-    font-family: Outfit;
-    padding-left: 15px;
-    padding-right: 15px;
-    gap: 574px;
-    padding-top: 32px;
+    padding: 20px 0;
     text-align: center;
-    padding-bottom: 69px;
 }
 
-.cancels h6 {
-    font-size: 26px;
+.action-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.action-buttons h6 {
+    font-size: 1rem;
     font-weight: 700;
     color: #C80606;
-    padding-top: 22px;
     cursor: pointer;
 }
 
-.cancels a {
-    list-style: none;
+.action-buttons a {
     text-decoration: none;
 }
 
-.cancels h6:hover {
+.action-buttons h6:hover {
     color: white;
 }
 
-.cancels button {
-    width: 300px;
-    height: 80px;
+.action-buttons button {
     background-color: #F1BC0C;
     color: white;
-    font-size: 24px;
+    font-size: 1rem;
     font-weight: 700;
-    text-align: center;
+    padding: 10px 20px;
     border: none;
-    border-radius: 20px;
+    border-radius: 8px;
     cursor: pointer;
+    transition: 0.3s;
 }
 
-.cancels button:hover {
+.action-buttons button:hover {
     background-color: white;
     color: #F1BC0C;
+}
+
+@media (max-width: 768px) {
+    .future {
+        font-size: 2rem;
+    }
+
+    .inform {
+        padding: 20px;
+    }
+
+    .input-group {
+        gap: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .future {
+        font-size: 1.5rem;
+    }
+
+    .action-buttons {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .inform {
+        padding: 15px;
+    }
+
+    .incut[type="text"], input[type="email"] {
+        font-size: 0.9rem;
+    }
+
+    .action-buttons h6, .action-buttons button {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
 }

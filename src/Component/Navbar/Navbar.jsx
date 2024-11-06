@@ -23,7 +23,7 @@ const Navbar = () => {
 
       <div className={`navbar-links ${isOpen ? "open" : ""}`}>
         <a 
-          href="home" 
+          href="/" 
           className={activeLink === "#home" ? "active" : ""}
           onClick={() => handleLinkClick("#home")}
         >
@@ -37,16 +37,16 @@ const Navbar = () => {
           About
         </a>
         <a 
-          href="projects" 
-          className={activeLink === "#projects" ? "active" : ""}
-          onClick={() => handleLinkClick("#projects")}
+          href="project" 
+          className={activeLink === "#project" ? "active" : ""}
+          onClick={() => handleLinkClick("#project")}
         >
           Projects
         </a>
         <a 
-          href="involved" 
-          className={activeLink === "#involved" ? "active" : ""}
-          onClick={() => handleLinkClick("#involved")}
+          href="started" 
+          className={activeLink === "#started" ? "active" : ""}
+          onClick={() => handleLinkClick("#started")}
         >
           Get Involved
         </a>

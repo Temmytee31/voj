@@ -1,220 +1,148 @@
-*{
-    padding: 0%;
-    margin: 0%;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-}
-
-.daddy {
-    width: 1320;
-    padding-bottom: 64px;
-}
-
-.daddy img {
+  }
+  
+  body {
+    font-family: 'Outfit', sans-serif;
+  }
+  
+  .daddy {
     width: 100%;
-}
-
-.missio {
+    padding-top: 3px;
+    padding-bottom: 50px;
+  }
+  
+  .daddy img {
+    width: 100%;
+  }
+  
+  .content-section {
+    /* padding: 20px; */
+    text-align: center;
+  }
+  
+  .cards {
     display: flex;
-    margin-left: 100px;
-    font-family: Outfit;
-    padding-bottom: 40px;
-}
-
-.our button {
-    font-size: 35px;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px 0;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    flex: 1 1 100px;
+    max-width: 300px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    font-weight: 700;
     color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .mission {
     background-color: #F1BC0C;
-    width: 385px;
-    height: 130px;
-    border: none;
-    font-weight: 700;
-    font-family: Outfit;
-    cursor: pointer;
-}
-
-.mis button {
-    font-size: 35px;
-    color: black;
+  }
+  
+  .vision, .work {
     background-color: #DF800C;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    width: 385px;
-    height: 130px;
-    border: none;
-    font-weight: 700;
-    font-family: Outfit;
-    cursor: pointer;
-}
-
-.work button {
-    font-size: 35px;
     color: black;
-    background-color: #DF800C;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    width: 385px;
-    height: 130px;
-    border: none;
-    font-weight: 700;
-    font-family: Outfit;
-    cursor: pointer;
-}
-
-.promote {
-    font-size: 22.5px;
+  }
+  
+  .promote {
+    font-size: 1rem;
     font-weight: 500;
-    font-family: Outfit;
-    padding-left: 108px;
-    padding-right: 108px;
-    padding-bottom: 40px;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
     text-align: justify;
-}
-
-.missios {
-    display: flex;
-    margin-left: 100px;
-    font-family: Outfit;
-    padding-bottom: 40px;
-}
-
-.ours button {
-    font-size: 35px;
-    color: black;
-    background-color: #DF800C;
-    width: 385px;
-    height: 130px;
-    border: none;
-    font-weight: 700;
-    font-family: Outfit;
-    cursor: pointer;
-}
-
-.miss button {
-    font-size: 35px;
-    color: white;
-    background-color: #F1BC0C;
-    width: 385px;
-    height: 130px;
-    border: none;
-    font-weight: 700;
-    font-family: Outfit;
-    cursor: pointer;
-}
-
-.works button {
-    font-size: 35px;
-    color: black;
-    background-color: #DF800C;
-    width: 385px;
-    height: 130px;
-    border: none;
-    font-weight: 700;
-    font-family: Outfit;
-    cursor: pointer;
-}
-
-.missioss {
-    display: flex;
-    margin-left: 100px;
-    font-family: Outfit;
-    padding-bottom: 40px;
-}
-
-.ourss button {
-    font-size: 35px;
-    color: black;
-    background-color: #DF800C;
-    width: 385px;
-    height: 130px;
-    border: none;
-    font-weight: 700;
-    font-family: Outfit;
-    cursor: pointer;
-}
-
-.misss button {
-    font-size: 35px;
-    color: black;
-    background-color: #DF800C;
-    width: 385px;
-    height: 130px;
-    border: none;
-    font-weight: 700;
-    font-family: Outfit;
-    cursor: pointer;
-}
-
-.workss button {
-    font-size: 35px;
-    color: white;
-    background-color: #F1BC0C;
-    width: 385px;
-    height: 130px;
-    border: none;
-    font-weight: 700;
-    font-family: Outfit;
-    cursor: pointer;
-}
-
-.promotes{
-    font-size: 22.5px;
-    font-weight: 500;
-    font-family: Outfit;
-    padding-left: 100px;
-    padding-right: 99px;
-    padding-bottom: 1140px;
-    text-align: justify;
-}
-
-
-.see-more {
+  }
+  
+  .see-more {
     color: #F1BC0C;
     font-weight: 700;
     cursor: pointer;
-}
-
-.see-more:hover {
-    color: white;
-    background-color: #DF800C;
-}
-
-.donors {
-    background-color: #DF800C;
-    color: white;
-    font-family: Outfit;
-}
-
-.becomes {
-    font-size: 32px;
-    font-weight: 700;
-    text-align: center;
-    padding-top: 32px;
-    padding-bottom: 32px;
-}
-
-.mosts {
-    font-size: 32px;
-    font-weight: 500;
-    width: 1225px;
-    padding-left: 107px;
-    padding-bottom: 32px;
-}
-
-.donates {
-    width: 200px;
-    height: 80px;
+    display: block;
+    margin-top: 10px;
+    text-align: right;
+  }
+  
+  .see-more:hover {
+    color: #DF800C;
+  }
+  
+  .vision-statement {
+    font-size: 1rem;
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: justify;
+  }
+  
+  .join-button {
     background-color: #F1BC0C;
     color: white;
-    border: none;
-    border-radius: 10px;
-    font-size: 24px;
+    font-size: 1.2rem;
     font-weight: 700;
-    margin-left: 570px;
-    margin-bottom: 32px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
     cursor: pointer;
-}
-
-.donates:hover {
-    color: #DF800C;
+    transition: 0.3s;
+  }
+  
+  .join-button:hover {
     background-color: white;
-}
+    color: #DF800C;
+  }
+  
+  /* Responsive Styling */
+  
+  @media (max-width: 768px) {
+    .cards {
+      gap: 10px;
+    }
+  
+    .card {
+      font-size: 1.5rem;
+      height: 100px;
+    }
+  
+    .vision-statement, .promote {
+      font-size: 0.9rem;
+    }
+  
+    .join-button {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .cards {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .card {
+      width: 100%;
+      font-size: 1.3rem;
+      height: 90px;
+    }
+  
+    .promote,
+    .vision-statement {
+      font-size: 0.8rem;
+    }
+  
+    .join-button {
+      font-size: 0.9rem;
+      padding: 10px 20px;
+    }
+  }
+  

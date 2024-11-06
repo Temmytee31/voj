@@ -33,6 +33,8 @@ function Project() {
                 <button className='learn'>Learn More</button>
             </div>
         </div>
+        <div>
+        </div>
         <div className='foods'>
             <div className='angels'>
                 <h6>Project Zero Hunger</h6>

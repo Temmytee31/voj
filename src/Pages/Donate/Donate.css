@@ -1,222 +1,204 @@
-*{
-    padding: 0%;
-    margin: 0%;
+* {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Outfit', sans-serif;
+}
+
 .future {
-    font-family: Outfit;
     text-align: center;
     font-size: 50px;
     font-weight: 700;
-    padding-bottom: 64px;
+    padding-top: 64px;
+    padding-bottom: 40px;
 }
 
-.fut {
-    padding-bottom: 40px;
-    padding-top: 63px;
+.fut, .ture {
+    margin: 0;
 }
 
 .amount {
     background-image: url("../../assets/backs.png");
-    padding-top: 140px;
-    padding-bottom: 348px;
+    background-size: cover;
+    padding: 100px 20px;
 }
 
 .choose {
     background-color: #DF800C;
-    margin-left: 183px;
-    margin-right: 183px;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+    border-radius: 8px;
 }
 
 .nati {
     font-size: 32px;
-    font-family: Outfit;
     font-weight: 700;
     color: white;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    padding-left: 106px;
+    text-align: center;
+    padding: 16px 0;
 }
 
 .bord {
-    margin-left: 106px;
-    margin-right: 76px;
     border: 2px solid white;
     border-radius: 10px;
-}
-
-.little {
+    padding: 20px;
     display: flex;
-    gap: 40px;
-    align-items: center;
+    flex-direction: column;
+    gap: 16px;
 }
 
-.white {
-    color: white;
-}
-
-.little h6 {
-    font-size: 48px;
-    font-family: Outfit;
-    font-weight: 700;
-    color: white;
-}
-
-.little p {
-    font-size: 17px;
-    font-family: Outfit;
-    font-weight: 600;
-    color: white;
-    width: 642px;
-    padding-top: 12px;
-    padding-bottom: 11px;
-}
-
-.littles {
+.little, .littles, .littless {
     display: flex;
-    gap: 40px;
     align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.little, .mon {
+    background-color: #DF800C;
+    color: white;
+}
+
+.littles, .littless, .low {
     background-color: white;
-    margin-bottom: 8px;
+    color: black;
 }
 
-.littles h6 {
-    font-size: 48px;
-    font-family: Outfit;
+.little h6, .littles h6, .littless h6, .mon h6, .low h6 {
+    font-size: 24px;
     font-weight: 700;
-    color: black;
+    margin: 0;
 }
 
-.littles p {
+.little p, .littles p, .littless p {
     font-size: 17px;
-    font-family: Outfit;
     font-weight: 600;
-    color: black;
-    width: 642px;
-    padding-top: 12px;
-    padding-bottom: 11px;
+    color: inherit;
+    max-width: 500px;
 }
 
-.littless {
-    display: flex;
-    gap: 40px;
-    align-items: center;
-    background-color: white;
-}
-
-.littless h6 {
-    font-size: 48px;
-    font-family: Outfit;
-    font-weight: 700;
-    color: black;
-}
-
-.littless p {
-    font-size: 17px;
-    font-family: Outfit;
-    font-weight: 600;
-    color: black;
-    width: 642px;
-    padding-top: 12px;
-    padding-bottom: 11px;
-}
-
-.custom {
-    font-family: Outfit;
+.custom, .frequency {
     font-size: 24px;
     font-weight: 700;
     color: #F1BC0C;
-    padding-left: 106px;
-    padding-top: 32px;
-    padding-bottom: 64px;
+    padding: 16px;
+    text-align: left;
 }
 
 .frequency {
-    font-family: Outfit;
-    font-size: 32px;
-    font-weight: 700;
     color: white;
-    padding-left: 106px;
-    padding-bottom: 32px;
 }
 
 .class {
     display: flex;
-    gap: 121px;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
     border: 2px solid white;
     border-radius: 10px;
-    margin-left: 106px;
-    margin-right: 76px;
-}
-
-.mon {
-    display: flex;
-    font-size: 32px;
-    font-family: Outfit;
-    font-weight: 700;
-    text-align: center;
-    color: white;
-    align-items: center;
-    gap: 58px;
-    padding-left: 86px;
-}
-
-.low {
-    display: flex;
-    font-size: 32px;
-    font-family: Outfit;
-    font-weight: 700;
-    text-align: center;
-    color: black;
-    align-items: center;
-    gap: 58px;
-    background-color: white;
-    padding-left: 86px;
-    padding-right: 92px;
 }
 
 .cancel {
     display: flex;
-    font-family: Outfit;
-    padding-left: 117px;
-    padding-right: 107px;
-    gap: 374px;
-    padding-top: 32px;
-    text-align: center;
-    padding-bottom: 81px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 20px;
+    gap: 20px;
 }
 
 .cancel h6 {
     font-size: 26px;
     font-weight: 700;
     color: #C80606;
-    padding-top: 22px;
-}
-
-.cancel h6:hover {
-    color: white;
-}
-
-.cancel a {
-    list-style: none;
-    text-decoration: none;
+    cursor: pointer;
 }
 
 .cancel button {
-    width: 300px;
-    height: 80px;
+    width: 200px;
+    height: 60px;
     background-color: #F1BC0C;
     color: white;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 700;
-    text-align: center;
     border: none;
-    border-radius: 20px;
+    border-radius: 10px;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .cancel button:hover {
     background-color: white;
     color: #F1BC0C;
+}
+
+/* Responsive Styles */
+
+@media (max-width: 1024px) {
+    .future {
+        font-size: 40px;
+    }
+    
+    .amount {
+        padding: 60px 10px;
+    }
+    
+    .choose {
+        padding: 15px;
+    }
+    
+    .bord, .class {
+        flex-direction: column;
+    }
+
+    .cancel button {
+        width: 180px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .future {
+        font-size: 32px;
+    }
+
+    .nati {
+        font-size: 28px;
+    }
+
+    .little h6, .littles h6, .littless h6, .mon h6, .low h6 {
+        font-size: 22px;
+    }
+
+    .cancel {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .cancel h6, .cancel button {
+        font-size: 18px;
+    }
+
+    .bord, .class {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .future {
+        font-size: 28px;
+    }
+
+    .choose {
+        margin: 0 10px;
+        padding: 10px;
+    }
+
+    .cancel button {
+        width: 100%;
+        padding: 12px;
+    }
 }

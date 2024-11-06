@@ -61,8 +61,8 @@ function Footer() {
             </div>
             <div className='subscribe'>
                 <h6>Subscribe to our Newsletter</h6>
-                <div className='holder'>
-                    <input placeholder='Your email' type='email'/>
+                <div >
+                    <input className='holder' placeholder='Your email' type='email'/>
                 </div>
                 <button>Subscribe Now</button>
             </div>

@@ -70,7 +70,7 @@ function Donate() {
                     </div>
                 </div>
                 <div className='cancel'>
-                    <a href='Homepage'> <h6>Cancel</h6></a>
+                    <a href='/'> <h6>Cancel</h6></a>
                     <a href='Donate2'> <button>Go To Checkout</button></a>
                 </div>
             </div>
