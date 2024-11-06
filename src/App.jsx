@@ -10,10 +10,7 @@ import Donate2 from './Pages/Donate/Donate2';
 
 const App = () => {
   return (
-    <BrowserRouter>
-      {/* Navbar will appear on all pages */}
-      <Navbar />
-      
+    <BrowserRouter>  
       <Routes>
         <Route index element={<Homepage />} />
         <Route path="about" element={<About />} />
@@ -22,9 +19,6 @@ const App = () => {
         <Route path="donate" element={<Donate />} />
         <Route path="donate2" element={<Donate2 />} />
       </Routes>
-
-      {/* Footer will also appear on all pages */}
-      <Footer />
     </BrowserRouter>
   );
 };
