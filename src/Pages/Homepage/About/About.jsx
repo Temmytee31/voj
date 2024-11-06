@@ -113,7 +113,14 @@ const About = () => {
           </span>
         </div>
       </div>
-
+      <div className='donor'>
+                <h6 className='become'>Become a volunteer</h6>
+                <h6 className='most'>
+                  Join us to make an impact Lets make an end  to te suffering Join us to make an impact Lets 
+                  make an end  to te suffering Join us to make an impact    
+                </h6>
+                <a href='Donate'><button className='donate'>JOin Now</button></a>
+            </div>
       <Footer />
     </div>
   );
