@@ -30,11 +30,11 @@ function Homepage() {
                     <h6>Our Vision & Mission</h6>
                     <p className='bright'>
                         Vision: Our vision is to create a better and brighter future for economically disadvantaged women 
-                        and children in West Africa, starting from Nigeria, by focusing on reducing poverty. <span className='span'>Learn More</span>
+                        and children in West Africa, starting from Nigeria, by focusing on reducing poverty. <span className='port'>Learn More</span>
                     </p>
-                    <p className='mission'>
+                    <p className='ssion'>
                         Mission:Our mission at the VOJ Foundation is to empower economically marginalized women in rural Nigeria by providing microfinance seed 
-                        solutions for Small and Medium Enterprises (SMEs) and Micro, Small, and Medium Enterprises (MSMEs). <span className='span'>Learn More</span>
+                        solutions for Small and Medium Enterprises (SMEs) and Micro, Small, and Medium Enterprises (MSMEs). <span className='port'>Learn More</span>
                     </p>
                 </div>
             </div>
