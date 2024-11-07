@@ -135,8 +135,6 @@ body {
     color: #F1BC0C;
 }
 
-/* Responsive Styles */
-
 @media (max-width: 1024px) {
     .future {
         font-size: 40px;

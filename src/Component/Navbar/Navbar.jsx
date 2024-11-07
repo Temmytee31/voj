@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Navbar.css';
 import logo from "../../assets/logo.png";
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,37 +23,37 @@ const Navbar = () => {
       </div>
 
       <div className={`navbar-links ${isOpen ? "open" : ""}`}>
-        <a 
-          href="/" 
+        <Link 
+          to="/" 
           className={activeLink === "#home" ? "active" : ""}
           onClick={() => handleLinkClick("#home")}
         >
           Home
-        </a>
-        <a 
-          href="about" 
+        </Link>
+        <Link 
+          to="/about" 
           className={activeLink === "#about" ? "active" : ""}
           onClick={() => handleLinkClick("#about")}
         >
           About
-        </a>
-        <a 
-          href="project" 
+        </Link>
+        <Link 
+          to="/project" 
           className={activeLink === "#project" ? "active" : ""}
           onClick={() => handleLinkClick("#project")}
         >
           Projects
-        </a>
-        <a 
-          href="started" 
+        </Link>
+        <Link 
+          to="/started" 
           className={activeLink === "#started" ? "active" : ""}
           onClick={() => handleLinkClick("#started")}
         >
           Get Involved
-        </a>
-        <a href="donate">
+        </Link>
+        <Link to="/donate">
           <button className="donate-btn">Donate Now</button>
-        </a>
+        </Link>
       </div>
 
       <div className="hamburger" onClick={toggleMenu}>

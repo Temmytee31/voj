@@ -10,7 +10,7 @@ body {
 
 .future {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 20px;
     font-weight: 700;
     padding: 64px 0;
     color: #333;
@@ -32,7 +32,7 @@ body {
 }
 
 .section-title {
-    font-size: 1.5rem;
+    font-size: 24px;
     font-weight: 700;
     margin-bottom: 24px;
 }
@@ -63,7 +63,7 @@ body {
 }
 
 .confirmation-text {
-    font-size: 1rem;
+    font-size: 16px;
     font-weight: 700;
     color: #F1BC0C;
     padding: 20px 0;
@@ -78,7 +78,7 @@ body {
 }
 
 .action-buttons h6 {
-    font-size: 1rem;
+    font-size: 16px;
     font-weight: 700;
     color: #C80606;
     cursor: pointer;
@@ -95,7 +95,7 @@ body {
 .action-buttons button {
     background-color: #F1BC0C;
     color: white;
-    font-size: 1rem;
+    font-size: 16px;
     font-weight: 700;
     padding: 10px 20px;
     border: none;
@@ -111,7 +111,7 @@ body {
 
 @media (max-width: 768px) {
     .future {
-        font-size: 2rem;
+        font-size: 32px;
     }
 
     .inform {
@@ -125,7 +125,7 @@ body {
 
 @media (max-width: 480px) {
     .future {
-        font-size: 1.5rem;
+        font-size: 24px;
     }
 
     .action-buttons {
@@ -138,11 +138,11 @@ body {
     }
 
     .incut[type="text"], input[type="email"] {
-        font-size: 0.9rem;
+        font-size: 14.4px;
     }
 
     .action-buttons h6, .action-buttons button {
-        font-size: 0.9rem;
+        font-size: 14.4px;
         padding: 8px 16px;
     }
 }

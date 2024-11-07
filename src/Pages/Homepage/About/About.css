@@ -19,7 +19,6 @@
   }
   
   .content-section {
-    /* padding: 20px; */
     text-align: center;
   }
   
@@ -38,7 +37,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.8rem;
+    font-size: 28.8px;
     font-weight: 700;
     color: white;
     cursor: pointer;
@@ -56,7 +55,7 @@
   }
   
   .promote {
-    font-size: 1rem;
+    font-size: 16px;
     font-weight: 500;
     padding: 20px;
     max-width: 800px;
@@ -80,7 +79,7 @@
   .join-button {
     background-color: #F1BC0C;
     color: white;
-    font-size: 1.2rem;
+    font-size: 19.2px;
     font-weight: 700;
     padding: 12px 24px;
     border: none;
@@ -94,24 +93,22 @@
     color: #DF800C;
   }
   
-  /* Responsive Styling */
-  
   @media (max-width: 768px) {
     .cards {
       gap: 10px;
     }
   
     .card {
-      font-size: 1.5rem;
+      font-size: 24px;
       height: 100px;
     }
   
     .vision-statement, .promote {
-      font-size: 0.9rem;
+      font-size: 14.4px;
     }
   
     .join-button {
-      font-size: 1rem;
+      font-size: 16px;
     }
   }
   
@@ -123,17 +120,17 @@
   
     .card {
       width: 100%;
-      font-size: 1.3rem;
+      font-size: 20.8px;
       height: 90px;
     }
   
     .promote,
     .vision-statement {
-      font-size: 0.8rem;
+      font-size: 12.8px;
     }
   
     .join-button {
-      font-size: 0.9rem;
+      font-size: 14.4px;
       padding: 10px 20px;
     }
   }

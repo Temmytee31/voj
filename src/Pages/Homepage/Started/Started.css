@@ -17,19 +17,17 @@ body {
 }
 
 .starte p {
-    font-size: 1.2rem;
+    font-size: 19px;
     font-weight: 600;
     max-width: 1200px;
     margin: 0 auto;
     padding-top: 170px ;
     padding-bottom: 170px;
     text-align: center;
-    /* padding-left: 90px;
-    padding-right: 90px; */
 }
 
 .don h6 {
-    font-size: 1.8rem;
+    font-size: 28px;
     font-weight: 700;
     color: #DF800C;
     margin-top: 50px;
@@ -37,7 +35,7 @@ body {
 }
 
 .don p {
-    font-size: 1rem;
+    font-size: 16px;
     font-weight: 500;
     max-width: 1000px;
     margin: 20px auto;
@@ -58,14 +56,14 @@ body {
 }
 
 .months {
-    font-size: 1rem;
+    font-size: 16px;
     font-weight: 700;
     margin: 30px auto;
     text-align: center;
 }
 
 .https {
-    font-size: 0.9rem;
+    font-size: 14px;
 }
 
 .months a {
@@ -83,17 +81,14 @@ body {
 .missioo, .missioso, .missiosso {
     display: flex;
     justify-content: center;
-    /* gap: 15px; */
     flex-wrap: wrap;
-    /* padding: 20px; */
 }
 
 .missioo div, .missioso div, .missiosso div {
-    font-size: 1rem;
+    font-size: 16px;
     padding: 20px 40px;
     font-weight: 700;
     text-align: center;
-    /* border-radius: 8px; */
     color: #fff;
     min-width: 400px;
 }
@@ -136,7 +131,7 @@ body {
 }
 
 .promoteo, .promoteso {
-    font-size: 0.9rem;
+    font-size: 14px;
     font-weight: 500;
     max-width: 1200px;
     margin: 20px auto;
@@ -169,17 +164,17 @@ body {
 
 @media (max-width: 768px) {
     .starte p {
-        font-size: 1rem;
+        font-size: 16px;
         padding: 60px 20px;
     }
 
     .don h6 {
-        font-size: 1.5rem;
+        font-size: 24px;
     }
 
     .don p, .promoteo, .promoteso, .months {
         padding: 0 20px;
-        font-size: 0.9rem;
+        font-size: 14px;
     }
 
     .bank {
@@ -205,7 +200,7 @@ body {
 
 @media (max-width: 480px) {
     .starte p, .don h6, .don p, .months{
-        font-size: 0.85rem;
+        font-size: 13px;
         padding: 0 15px;
     }
 
@@ -215,12 +210,12 @@ body {
     }
 
     .missioo div, .missioso div, .missiosso div {
-        font-size: 0.9rem;
+        font-size: 14px;
         padding: 10px 20px;
     }
 
     .promoteo, .promoteso {
-        font-size: 0.8rem;
+        font-size: 12px;
         padding: 0 15px;
     }
 }
