@@ -4,6 +4,7 @@ import Navbar from '../../Component/Navbar/Navbar';
 import white from "../../assets/white.png";
 import yellow from "../../assets/yellow.png";
 import Footer from '../../Component/Footer/Footer';
+import {NavLink } from 'react-router-dom';
 
 function Donate() {
   return (
@@ -70,8 +71,12 @@ function Donate() {
                     </div>
                 </div>
                 <div className='cancel'>
-                    <a href='/'> <h6>Cancel</h6></a>
-                    <a href='Donate2'> <button>Go To Checkout</button></a>
+                    <NavLink className="nav-link" activeClassName="active" to="/">
+                        <h6>Cancel</h6>
+                    </NavLink>
+                <NavLink className="nav-link" activeClassName="active" to="/donate2">
+                    <button>Go To Checkout</button>
+                </NavLink>
                 </div>
             </div>
         </div>

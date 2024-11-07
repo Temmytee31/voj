@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import './Navbar.css';
 import logo from "../../assets/logo.png";
-import { Link } from 'react-router-dom';
+import {NavLink } from 'react-router-dom';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [activeLink, setActiveLink] = useState("#home");
+  const [activeLink, setActiveLink] = useState("/");
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -13,7 +13,7 @@ const Navbar = () => {
 
   const handleLinkClick = (link) => {
     setActiveLink(link);
-    setIsOpen(false); // close menu on link click for mobile view
+    setIsOpen(false);
   };
 
   return (
@@ -23,37 +23,21 @@ const Navbar = () => {
       </div>
 
       <div className={`navbar-links ${isOpen ? "open" : ""}`}>
-        <Link 
-          to="/" 
-          className={activeLink === "#home" ? "active" : ""}
-          onClick={() => handleLinkClick("#home")}
-        >
-          Home
-        </Link>
-        <Link 
-          to="/about" 
-          className={activeLink === "#about" ? "active" : ""}
-          onClick={() => handleLinkClick("#about")}
-        >
-          About
-        </Link>
-        <Link 
-          to="/project" 
-          className={activeLink === "#project" ? "active" : ""}
-          onClick={() => handleLinkClick("#project")}
-        >
-          Projects
-        </Link>
-        <Link 
-          to="/started" 
-          className={activeLink === "#started" ? "active" : ""}
-          onClick={() => handleLinkClick("#started")}
-        >
-          Get Involved
-        </Link>
-        <Link to="/donate">
+      <NavLink exact className="nav-link" activeClassName="active" to="/">
+        Home
+      </NavLink>
+      <NavLink className="nav-link" activeClassName="active" to="/about">
+        About
+      </NavLink>
+      <NavLink className="nav-link" activeClassName="active" to="/project">
+        Project
+      </NavLink>
+      <NavLink className="nav-link" activeClassName="active" to="/started">
+        Get Involved
+      </NavLink>
+      <NavLink className="nav-link" activeClassName="active" to="/donate">
           <button className="donate-btn">Donate Now</button>
-        </Link>
+      </NavLink>
       </div>
 
       <div className="hamburger" onClick={toggleMenu}>
