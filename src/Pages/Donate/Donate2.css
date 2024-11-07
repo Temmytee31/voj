@@ -39,8 +39,7 @@ body {
 
 .input-group {
     display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
+    gap: 30px;
     margin-bottom: 20px;
 }
 
@@ -63,8 +62,8 @@ body {
 }
 
 .confirmation-text {
-    font-size: 16px;
-    font-weight: 700;
+    font-size: 13px;
+    font-weight: 600;
     color: #F1BC0C;
     padding: 20px 0;
     text-align: center;
@@ -119,6 +118,7 @@ body {
     }
 
     .input-group {
+        flex-wrap: wrap;
         gap: 15px;
     }
 }
